@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9db92e0e-011b-43dc-aa19-665c004a2f0f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 38.1 63.5)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e91c6350-4ee2-43dd-bf63-2f5635e1b5b8")
+		(property "Sheetname" "ESR_Frontend"
+			(at 38.1 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esr_frontend.kicad_sch"
+			(at 38.1 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
