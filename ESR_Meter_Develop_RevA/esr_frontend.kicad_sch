@@ -4188,6 +4188,12 @@
 		(uuid "23e59fd5-c559-4ffd-9a2e-e3d7f60d5408")
 	)
 	(junction
+		(at 139.7 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26451289-1e3c-43fd-9bc9-b0b3a26c365d")
+	)
+	(junction
 		(at 96.52 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4294,6 +4300,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4260213-91f6-4926-acde-934b0148b7e2")
+	)
+	(junction
+		(at 134.62 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4b0b31b-a10f-4a58-8f59-50d5b681619e")
 	)
 	(junction
 		(at 62.23 53.34)
@@ -4563,6 +4575,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 49.53) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3d2d4c-079a-4e48-af08-b12d5f59f769")
+	)
+	(wire
+		(pts
 			(xy 106.68 62.23) (xy 106.68 63.5)
 		)
 		(stroke
@@ -4773,6 +4795,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 49.53) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5232f714-b85e-40ae-8f0c-8640be4ca2d4")
+	)
+	(wire
+		(pts
 			(xy 72.39 52.07) (xy 77.47 52.07)
 		)
 		(stroke
@@ -4780,6 +4812,16 @@
 			(type default)
 		)
 		(uuid "55fabc3a-577a-42ba-90f7-a5325212526d")
+	)
+	(wire
+		(pts
+			(xy 134.62 49.53) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fac108-f181-4c6e-9138-8716f1c6e4dd")
 	)
 	(wire
 		(pts
@@ -4870,6 +4912,16 @@
 			(type default)
 		)
 		(uuid "6aa5af3e-4d9e-4e61-a585-5b6863cc1e60")
+	)
+	(wire
+		(pts
+			(xy 139.7 59.69) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d515db0-65b0-4b14-b4f5-970ba41ae70a")
 	)
 	(wire
 		(pts
@@ -5153,6 +5205,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 49.53) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5222d75-1585-4d88-9545-bcbd1329a04f")
+	)
+	(wire
+		(pts
 			(xy 35.56 120.65) (xy 43.18 120.65)
 		)
 		(stroke
@@ -5333,6 +5395,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 52.07) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0221271-620d-41c0-8789-73a81f834c68")
+	)
+	(wire
+		(pts
 			(xy 151.13 88.9) (xy 151.13 90.17)
 		)
 		(stroke
@@ -5360,6 +5432,16 @@
 			(type default)
 		)
 		(uuid "d5c91ff7-90d2-4124-806c-04aacb266fb8")
+	)
+	(wire
+		(pts
+			(xy 134.62 59.69) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d732558d-8254-45e6-b81e-491f3faf92fa")
 	)
 	(wire
 		(pts
@@ -5480,6 +5562,16 @@
 			(type default)
 		)
 		(uuid "ec42d93b-6dc6-481c-817c-3bde71e0c792")
+	)
+	(wire
+		(pts
+			(xy 134.62 52.07) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc4db28-8db3-464a-b282-2a492d2dbb83")
 	)
 	(wire
 		(pts
@@ -5620,6 +5712,28 @@
 			(type default)
 		)
 		(uuid "ff6521f8-aac8-490d-aa4c-0ecb36417c4c")
+	)
+	(global_label "SINE_DAC"
+		(shape input)
+		(at 142.24 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "90cb0bf2-1319-47d2-9171-850335419578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.5524 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "3Brain_AnalogIC:TL074H")
@@ -5823,6 +5937,103 @@
 			(project ""
 				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
+		(at 129.54 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd4b854-0b79-4f4e-85b2-fc25a69c3f75")
+		(property "Reference" "R18"
+			(at 129.54 47.752 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 129.54 51.308 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "Footprint" "3Brain_Resistors:R_0603"
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c58a07f-283c-4a7a-8243-6525f5a23e02")
+		)
+		(pin "1"
+			(uuid "eb68b8b6-647e-4fce-ab86-0839431cd455")
+		)
+		(instances
+			(project ""
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7900,6 +8111,170 @@
 		)
 	)
 	(symbol
+		(lib_id "3Brain_Supply:GND")
+		(at 134.62 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a76d03c-f0f6-4423-9524-727be693c195")
+		(property "Reference" "#PWR018"
+			(at 134.62 57.658 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e9f1d9f-10ae-4baf-be28-014f924a8cb7")
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
+		(at 134.62 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2abd7d-e529-4bc4-aab0-2e984ad7668a")
+		(property "Reference" "R19"
+			(at 136.398 54.61 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 132.842 54.61 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "Footprint" "3Brain_Resistors:R_0603"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 46.99 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 134.62 44.45 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd09ab22-1cf2-4a79-a720-675e80414d93")
+		)
+		(pin "2"
+			(uuid "c2e4ea82-6e93-4ba0-ae24-00028ea69bdf")
+		)
+		(instances
+			(project ""
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "3Brain_Resistors:R_Small")
 		(at 80.01 52.07 90)
 		(unit 1)
@@ -8061,6 +8436,121 @@
 			(project "ESR_Meter_Develop_RevA"
 				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_Capacitors:_template_0603_duplicate_me")
+		(at 139.7 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88a0a53e-9d8b-4e1a-92a2-dc3754d27056")
+		(property "Reference" "C7"
+			(at 140.208 53.086 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 140.208 56.134 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "3Brain_Capacitors:C_0603"
+			(at 139.7 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Symbol Small"
+			(at 139.7 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 139.7 50.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" ""
+			(at 139.7 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 139.7 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Details" ""
+			(at 139.7 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7e9c847-7117-4cba-84b7-b2d19b521bc6")
+		)
+		(pin "1"
+			(uuid "639a39bd-79e9-4818-a52b-3d150e48b022")
+		)
+		(instances
+			(project ""
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9681,7 +10171,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e07bc19-b067-4703-82d3-663f82d3717f")
+			(uuid "7e07bc19-b067-4703-82d3-663f82d37180")
 		)
 		(instances
 			(project ""
@@ -10060,33 +10550,100 @@
 			)
 		)
 		(pin "7"
-			(uuid "86097dd6-3dd0-4b0d-bb83-3fcc8a6fc381")
+			(uuid "86097dd6-3dd0-4b0d-bb83-3fcc8a6fc382")
 		)
 		(pin "1"
-			(uuid "7d84c816-6786-4076-9ece-61eeb8ea2555")
+			(uuid "7d84c816-6786-4076-9ece-61eeb8ea2556")
 		)
 		(pin "3"
-			(uuid "2a2711c4-debf-455b-b094-ed8b5d035f74")
+			(uuid "2a2711c4-debf-455b-b094-ed8b5d035f75")
 		)
 		(pin "5"
-			(uuid "f2ef7a7c-dac2-48b2-b815-98e9d9aae487")
+			(uuid "f2ef7a7c-dac2-48b2-b815-98e9d9aae488")
 		)
 		(pin "4"
-			(uuid "993cc4ab-f3ac-42a6-91cc-e76fa73527dd")
+			(uuid "993cc4ab-f3ac-42a6-91cc-e76fa73527de")
 		)
 		(pin "2"
-			(uuid "c51ca014-c0d3-4b1b-84f9-3832042fa8ab")
+			(uuid "c51ca014-c0d3-4b1b-84f9-3832042fa8ac")
 		)
 		(pin "8"
-			(uuid "afc95c5d-806b-4bca-9aae-27a81bebe103")
+			(uuid "afc95c5d-806b-4bca-9aae-27a81bebe104")
 		)
 		(pin "6"
-			(uuid "f298512d-65ee-410c-89dd-5f125fd6bfd2")
+			(uuid "f298512d-65ee-410c-89dd-5f125fd6bfd3")
 		)
 		(instances
 			(project ""
 				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_Supply:GND")
+		(at 139.7 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7471e3b-94bc-4c0a-a0aa-baba118663e5")
+		(property "Reference" "#PWR019"
+			(at 139.7 57.658 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2557163e-a49e-4973-b16b-d650885ffe6a")
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10277,28 +10834,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "86097dd6-3dd0-4b0d-bb83-3fcc8a6fc381")
+			(uuid "86097dd6-3dd0-4b0d-bb83-3fcc8a6fc383")
 		)
 		(pin "1"
-			(uuid "7d84c816-6786-4076-9ece-61eeb8ea2555")
+			(uuid "7d84c816-6786-4076-9ece-61eeb8ea2557")
 		)
 		(pin "3"
-			(uuid "2a2711c4-debf-455b-b094-ed8b5d035f74")
+			(uuid "2a2711c4-debf-455b-b094-ed8b5d035f76")
 		)
 		(pin "5"
-			(uuid "f2ef7a7c-dac2-48b2-b815-98e9d9aae487")
+			(uuid "f2ef7a7c-dac2-48b2-b815-98e9d9aae489")
 		)
 		(pin "4"
-			(uuid "993cc4ab-f3ac-42a6-91cc-e76fa73527dd")
+			(uuid "993cc4ab-f3ac-42a6-91cc-e76fa73527df")
 		)
 		(pin "2"
-			(uuid "c51ca014-c0d3-4b1b-84f9-3832042fa8ab")
+			(uuid "c51ca014-c0d3-4b1b-84f9-3832042fa8ad")
 		)
 		(pin "8"
-			(uuid "afc95c5d-806b-4bca-9aae-27a81bebe103")
+			(uuid "afc95c5d-806b-4bca-9aae-27a81bebe105")
 		)
 		(pin "6"
-			(uuid "f298512d-65ee-410c-89dd-5f125fd6bfd2")
+			(uuid "f298512d-65ee-410c-89dd-5f125fd6bfd4")
 		)
 		(instances
 			(project ""
@@ -11252,7 +11809,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0649451-4a97-4125-b976-29174ba6df13")
+			(uuid "c0649451-4a97-4125-b976-29174ba6df14")
 		)
 		(instances
 			(project ""
