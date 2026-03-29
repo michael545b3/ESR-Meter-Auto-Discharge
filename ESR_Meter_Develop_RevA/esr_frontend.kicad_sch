@@ -5,516 +5,6 @@
 	(uuid "74eac619-5207-4f76-a18a-16b6a8855933")
 	(paper "A4")
 	(lib_symbols
-		(symbol "3Brain_AnalogIC:TL071H"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.889 0.889)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL071H"
-				(at 0 3.81 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.889 0.889)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "3Brain_ICs:SOIC-8"
-				(at 0 17.78 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
-				(at 0 13.97 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1mV 1pA 20V/us 105dB 960uA 5.25MHz 1 SOIC-8 Amplifiers RoHS"
-				(at 0 15.24 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey"
-				(at 0 20.32 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "OC" "296-TL071HIDRCT-ND"
-				(at 0 16.51 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TL071HIDR"
-				(at 0 19.05 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "single opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL071H_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TL071H_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 6.35 270)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -6.35 90)
-					(length 2.54)
-					(name "V-"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "3Brain_AnalogIC:TL072H"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 6.35 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.889 0.889)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL072H"
-				(at -2.54 5.08 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.889 0.889)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "3Brain_ICs:SOIC-8"
-				(at 0 11.43 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
-				(at 0 8.89 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz 2 SOIC-8 Amplifiers RoHS"
-				(at 2.54 7.62 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey"
-				(at 0 10.16 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "OC" "296-LM358BIDRCT-ND"
-				(at 0 12.7 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TL072HIDR"
-				(at 0 13.97 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp TL072"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL072H_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072H_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072H_3_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 1.27)
-					(name "V+"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "V-"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "3Brain_AnalogIC:TL074H"
 			(pin_names
 				(offset 0.2)
@@ -4651,230 +4141,230 @@
 		)
 	)
 	(junction
-		(at 74.93 46.99)
+		(at 91.44 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "114a0f3f-10f7-4b70-8dfa-378a56f91e4b")
 	)
 	(junction
-		(at 106.68 35.56)
+		(at 123.19 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d53c85a-371a-45bd-a54a-f5962ef5e06a")
 	)
 	(junction
-		(at 68.58 93.98)
+		(at 85.09 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23e59fd5-c559-4ffd-9a2e-e3d7f60d5408")
 	)
 	(junction
-		(at 139.7 33.02)
+		(at 147.32 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26451289-1e3c-43fd-9bc9-b0b3a26c365d")
+		(uuid "26ba42e4-c22e-418c-af62-0a9571a23ee1")
 	)
 	(junction
-		(at 96.52 46.99)
+		(at 113.03 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27e5247d-48de-474b-baee-92b2ec23717c")
 	)
 	(junction
-		(at 77.47 121.92)
+		(at 93.98 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28268837-058b-47d7-a5bd-26cc6e6fb8be")
 	)
 	(junction
-		(at 168.91 96.52)
+		(at 185.42 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290abce4-4429-47c7-98e7-bcea5b5ca8e3")
 	)
 	(junction
-		(at 72.39 35.56)
+		(at 88.9 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4105e35f-673d-4650-814b-c55fa06db31e")
 	)
 	(junction
-		(at 72.39 114.3)
+		(at 88.9 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4696d49a-eab2-4766-a95c-1fe7e4031309")
 	)
 	(junction
-		(at 119.38 93.98)
+		(at 135.89 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "496d77e4-35a0-47dd-a451-541e82d52560")
 	)
 	(junction
-		(at 92.71 68.58)
+		(at 109.22 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51fd51f0-a20a-4919-b0d3-6bb8f2bf781f")
 	)
 	(junction
-		(at 99.06 121.92)
+		(at 115.57 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51feb105-c3ee-404c-b06d-29d85f8f9b4b")
 	)
 	(junction
-		(at 92.71 35.56)
+		(at 168.91 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "562b35d9-5b37-4eef-8d0e-4368f1082e1a")
+	)
+	(junction
+		(at 152.4 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a75b0aa-2ecd-48f4-8123-8c7ab7a5aaaa")
+	)
+	(junction
+		(at 109.22 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b30d054-1ab3-4743-9420-50f65eb6fed9")
 	)
 	(junction
-		(at 92.71 46.99)
+		(at 109.22 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60db9ba4-3b7b-4488-8ea2-4886b61c01ec")
 	)
 	(junction
-		(at 133.35 93.98)
+		(at 149.86 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62d1c580-4c05-4f30-a10b-5893bd72eb15")
 	)
 	(junction
-		(at 46.99 88.9)
+		(at 63.5 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63a3ed8a-a5d8-4acc-acc0-0c48fd2965c8")
 	)
 	(junction
-		(at 43.18 88.9)
+		(at 59.69 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "653991b2-f2be-413b-8d7e-08460a4bedf4")
 	)
 	(junction
-		(at 82.55 71.12)
+		(at 99.06 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "812383a0-0756-4071-b862-407123a078ef")
 	)
 	(junction
-		(at 93.98 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "820b3ea1-b53c-4644-a014-df871c73e2f9")
-	)
-	(junction
-		(at 101.6 93.98)
+		(at 118.11 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86f55cef-4c8b-44cf-b9fa-9d9684514099")
 	)
 	(junction
-		(at 72.39 129.54)
+		(at 110.49 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8772d2c5-6f2f-43d4-8c45-3893f2dbe19a")
+	)
+	(junction
+		(at 88.9 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "898d76f7-9c0f-4292-98f1-bc87a7cca4ab")
 	)
 	(junction
-		(at 106.68 46.99)
+		(at 123.19 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fee0f5e-bb35-4238-95c4-2dec8e668036")
 	)
 	(junction
-		(at 76.2 93.98)
+		(at 92.71 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a03417bc-3d5d-4f42-8d12-343c019f157f")
 	)
 	(junction
-		(at 151.13 88.9)
+		(at 167.64 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6c2d2d2-93c5-483d-bc2a-e50a6206d1be")
 	)
 	(junction
-		(at 54.61 36.83)
+		(at 71.12 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b04e07fc-1997-4f36-bc71-aeb71707e1a3")
 	)
 	(junction
-		(at 149.86 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7e8edb9-3414-4e51-a2f0-e84e10ee66a2")
-	)
-	(junction
-		(at 114.3 71.12)
+		(at 130.81 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc607eb9-be01-482e-b24a-7bb50947ab95")
 	)
 	(junction
-		(at 59.69 68.58)
+		(at 76.2 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdadff58-5d0d-45b3-8228-2fb91bcbfa64")
 	)
 	(junction
-		(at 93.98 93.98)
+		(at 110.49 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4260213-91f6-4926-acde-934b0148b7e2")
 	)
 	(junction
-		(at 134.62 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4b0b31b-a10f-4a58-8f59-50d5b681619e")
-	)
-	(junction
-		(at 93.98 114.3)
+		(at 110.49 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5fbab72-d7ab-4c18-ba81-47cede2980d2")
 	)
 	(junction
-		(at 62.23 36.83)
+		(at 78.74 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3258caa-1c02-440f-93dc-97bc008ed597")
 	)
 	(junction
-		(at 50.8 88.9)
+		(at 67.31 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d36d58f8-2f8c-42dd-b906-2338fbf96eb4")
 	)
 	(junction
-		(at 106.68 39.37)
+		(at 123.19 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6427ccd-f7d7-4b71-816d-7727e42b8f14")
 	)
 	(junction
-		(at 158.75 96.52)
+		(at 175.26 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6f80c5b-0e94-4672-b9f3-c1c988b78d30")
 	)
 	(junction
-		(at 151.13 96.52)
+		(at 167.64 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f140a4ab-9c5c-437f-a056-91ee3fda3ac3")
 	)
 	(junction
-		(at 54.61 68.58)
+		(at 71.12 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff830730-30a6-4af6-9d68-bc6e9bb62252")
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 50.8 93.98)
+			(xy 67.31 102.87) (xy 67.31 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4884,7 +4374,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 92.71 96.52)
+			(xy 147.32 54.61) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a7a80a-8ff0-4a24-9011-5efc4d244855")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 109.22 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4894,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 71.12) (xy 92.71 71.12)
+			(xy 106.68 85.09) (xy 109.22 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4904,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 92.71 68.58)
+			(xy 109.22 85.09) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4914,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 101.6 93.98)
+			(xy 118.11 102.87) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4924,7 +4424,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 76.2 99.06)
+			(xy 93.98 113.03) (xy 92.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4934,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 66.04) (xy 90.17 66.04)
+			(xy 109.22 80.01) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4944,7 +4444,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 88.9) (xy 50.8 88.9)
+			(xy 63.5 102.87) (xy 67.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4954,7 +4454,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 168.91 90.17)
+			(xy 185.42 102.87) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4964,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 151.13 88.9)
+			(xy 149.86 102.87) (xy 167.64 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4974,7 +4474,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 81.28 121.92)
+			(xy 99.06 137.16) (xy 99.06 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4984,7 +4484,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 121.92) (xy 77.47 120.65)
+			(xy 93.98 135.89) (xy 93.98 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4994,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 151.13 96.52)
+			(xy 167.64 109.22) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5004,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 113.03) (xy 72.39 114.3)
+			(xy 88.9 127) (xy 88.9 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5014,17 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 33.02) (xy 149.86 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12eeea70-b2a1-4287-bb36-9091ebf7561c")
-	)
-	(wire
-		(pts
-			(xy 99.06 114.3) (xy 93.98 114.3)
+			(xy 115.57 128.27) (xy 110.49 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5034,7 +4524,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 73.66) (xy 66.04 73.66)
+			(xy 81.28 87.63) (xy 82.55 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5044,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 158.75 96.52)
+			(xy 175.26 102.87) (xy 175.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5054,7 +4544,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 93.98) (xy 68.58 88.9)
+			(xy 85.09 107.95) (xy 85.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5064,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 88.9) (xy 50.8 88.9)
+			(xy 73.66 102.87) (xy 67.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5074,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 93.98) (xy 76.2 88.9)
+			(xy 92.71 107.95) (xy 92.71 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5084,7 +4574,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 46.99) (xy 74.93 46.99)
+			(xy 87.63 60.96) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5094,7 +4584,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 66.04) (xy 54.61 68.58)
+			(xy 71.12 80.01) (xy 71.12 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5104,7 +4594,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 54.61 78.74)
+			(xy 71.12 90.17) (xy 71.12 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5114,7 +4604,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 78.74) (xy 64.77 73.66)
+			(xy 81.28 92.71) (xy 81.28 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5124,7 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 168.91 96.52)
+			(xy 185.42 109.22) (xy 185.42 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5134,27 +4624,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 49.53) (xy 149.86 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b31ec3e-4c6e-4cbb-bf78-73e8a450561c")
-	)
-	(wire
-		(pts
-			(xy 149.86 57.15) (xy 149.86 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6cba04-0b91-4992-a65c-fa7b0ffddba9")
-	)
-	(wire
-		(pts
-			(xy 96.52 73.66) (xy 96.52 78.74)
+			(xy 113.03 87.63) (xy 113.03 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5164,7 +4634,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 133.35) (xy 35.56 133.35)
+			(xy 59.69 147.32) (xy 52.07 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5174,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 46.99) (xy 104.14 46.99)
+			(xy 123.19 60.96) (xy 120.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5184,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 76.2 93.98)
+			(xy 91.44 107.95) (xy 92.71 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5194,7 +4664,37 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 38.1) (xy 124.46 38.1)
+			(xy 160.02 46.99) (xy 161.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cad712-bad6-4dec-bbd2-a69d27592343")
+	)
+	(wire
+		(pts
+			(xy 170.18 46.99) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bc4af7-ff78-4f68-a2e6-b1daf863988b")
+	)
+	(wire
+		(pts
+			(xy 186.69 49.53) (xy 186.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276a3e61-dcab-49d2-b584-1fb6e44ad8c2")
+	)
+	(wire
+		(pts
+			(xy 142.24 52.07) (xy 140.97 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5204,7 +4704,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 121.92) (xy 99.06 121.92)
+			(xy 120.65 135.89) (xy 115.57 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5214,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 66.04) (xy 82.55 66.04)
+			(xy 101.6 80.01) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5224,17 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 142.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3d2d4c-079a-4e48-af08-b12d5f59f769")
-	)
-	(wire
-		(pts
-			(xy 93.98 129.54) (xy 93.98 130.81)
+			(xy 110.49 143.51) (xy 110.49 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5244,7 +4734,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 45.72) (xy 106.68 46.99)
+			(xy 147.32 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6606c1-781c-4869-acac-6659f736a56d")
+	)
+	(wire
+		(pts
+			(xy 123.19 59.69) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5254,7 +4754,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 128.27) (xy 72.39 129.54)
+			(xy 88.9 142.24) (xy 88.9 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5264,7 +4764,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 133.35 93.98)
+			(xy 151.13 107.95) (xy 149.86 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5274,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 82.55 88.9)
+			(xy 92.71 102.87) (xy 99.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5284,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 99.06) (xy 101.6 104.14)
+			(xy 118.11 113.03) (xy 118.11 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5294,7 +4794,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 96.52) (xy 158.75 96.52)
+			(xy 173.99 110.49) (xy 175.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5304,7 +4804,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 66.04) (xy 92.71 68.58)
+			(xy 109.22 80.01) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5314,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 36.83) (xy 43.18 36.83)
+			(xy 71.12 50.8) (xy 59.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5324,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 114.3) (xy 93.98 116.84)
+			(xy 110.49 128.27) (xy 110.49 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5334,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 44.45) (xy 72.39 44.45)
+			(xy 87.63 58.42) (xy 88.9 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5344,7 +4844,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 129.54) (xy 72.39 130.81)
+			(xy 88.9 143.51) (xy 88.9 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5354,17 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 43.18) (xy 149.86 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f00f878-7572-46b2-9e94-82d7901902d2")
-	)
-	(wire
-		(pts
-			(xy 67.31 96.52) (xy 68.58 96.52)
+			(xy 83.82 110.49) (xy 85.09 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5374,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 101.6 99.06)
+			(xy 119.38 113.03) (xy 118.11 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5384,7 +4874,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 57.15) (xy 92.71 54.61)
+			(xy 109.22 71.12) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +4884,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 104.14) (xy 43.18 99.06)
+			(xy 59.69 118.11) (xy 59.69 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5404,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 62.23 88.9)
+			(xy 85.09 102.87) (xy 78.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +4904,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 151.13 96.52)
+			(xy 166.37 110.49) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5424,17 +4914,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 57.15) (xy 146.05 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46ed1221-8aea-4d2c-a040-25d1fe78fb0c")
-	)
-	(wire
-		(pts
-			(xy 76.2 99.06) (xy 76.2 104.14)
+			(xy 92.71 113.03) (xy 92.71 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5444,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 45.72) (xy 62.23 36.83)
+			(xy 78.74 59.69) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5454,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 78.74) (xy 43.18 81.28)
+			(xy 59.69 92.71) (xy 59.69 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5464,7 +4944,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 68.58) (xy 92.71 68.58)
+			(xy 114.3 82.55) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5474,7 +4954,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 86.36) (xy 43.18 88.9)
+			(xy 59.69 100.33) (xy 59.69 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5484,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 120.65) (xy 43.18 123.19)
+			(xy 59.69 134.62) (xy 59.69 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5494,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 102.87 93.98)
+			(xy 118.11 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5504,7 +4984,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 33.02) (xy 124.46 33.02)
+			(xy 154.94 46.99) (xy 152.4 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5514,7 +4994,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 116.84 71.12)
+			(xy 130.81 85.09) (xy 133.35 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5524,7 +5004,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 35.56) (xy 77.47 35.56)
+			(xy 88.9 49.53) (xy 93.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5534,17 +5014,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 33.02) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56fac108-f181-4c6e-9138-8716f1c6e4dd")
-	)
-	(wire
-		(pts
-			(xy 151.13 96.52) (xy 152.4 96.52)
+			(xy 167.64 110.49) (xy 168.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5554,7 +5024,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 93.98 88.9)
+			(xy 110.49 107.95) (xy 110.49 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5564,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 36.83) (xy 62.23 36.83)
+			(xy 71.12 50.8) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5574,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 68.58) (xy 54.61 71.12)
+			(xy 71.12 82.55) (xy 71.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5584,7 +5054,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 128.27) (xy 77.47 129.54)
+			(xy 168.91 54.61) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d73f6c6-c90d-4245-9b21-dd7077109148")
+	)
+	(wire
+		(pts
+			(xy 93.98 142.24) (xy 93.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5594,7 +5074,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 82.55 71.12)
+			(xy 185.42 49.53) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6292e768-d657-426f-94ed-c249728c9435")
+	)
+	(wire
+		(pts
+			(xy 97.79 85.09) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5604,7 +5094,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 43.18) (xy 101.6 43.18)
+			(xy 119.38 57.15) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5614,7 +5104,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 35.56) (xy 72.39 35.56)
+			(xy 87.63 49.53) (xy 88.9 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5624,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 111.76 43.18)
+			(xy 127 57.15) (xy 128.27 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5634,7 +5124,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 139.7 40.64)
+			(xy 152.4 54.61) (xy 152.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5644,17 +5134,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 27.94) (xy 119.38 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6efc4cf6-8460-4de4-bdf8-ee62d8e77b4f")
-	)
-	(wire
-		(pts
-			(xy 93.98 93.98) (xy 95.25 93.98)
+			(xy 110.49 107.95) (xy 111.76 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5664,7 +5144,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 129.54) (xy 77.47 129.54)
+			(xy 88.9 143.51) (xy 93.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5674,7 +5154,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 71.12) (xy 82.55 78.74)
+			(xy 99.06 85.09) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5684,7 +5164,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 92.71 46.99)
+			(xy 113.03 60.96) (xy 109.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5694,7 +5174,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 99.06) (xy 50.8 104.14)
+			(xy 67.31 113.03) (xy 67.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5704,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 133.35 88.9)
+			(xy 149.86 107.95) (xy 149.86 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5714,7 +5194,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 161.29 96.52)
+			(xy 175.26 110.49) (xy 177.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5724,7 +5204,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 127 93.98)
+			(xy 142.24 107.95) (xy 143.51 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5734,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 111.76 39.37)
+			(xy 128.27 57.15) (xy 128.27 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5744,7 +5224,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 35.56) (xy 92.71 35.56)
+			(xy 106.68 49.53) (xy 109.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5754,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 35.56) (xy 106.68 35.56)
+			(xy 120.65 49.53) (xy 123.19 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5764,7 +5244,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 129.54) (xy 99.06 129.54)
+			(xy 110.49 143.51) (xy 115.57 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5774,17 +5254,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 48.26) (xy 149.86 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "866c3982-4588-4bfc-9fc6-708ab1c61989")
-	)
-	(wire
-		(pts
-			(xy 43.18 36.83) (xy 43.18 73.66)
+			(xy 59.69 50.8) (xy 59.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5794,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 72.39 115.57)
+			(xy 88.9 128.27) (xy 88.9 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5804,7 +5274,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 46.99) (xy 74.93 46.99)
+			(xy 93.98 60.96) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5814,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 36.83) (xy 54.61 45.72)
+			(xy 71.12 50.8) (xy 71.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5824,7 +5294,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 120.65 93.98)
+			(xy 135.89 107.95) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5834,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 119.38 93.98)
+			(xy 135.89 102.87) (xy 135.89 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5844,7 +5314,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 158.75 88.9)
+			(xy 173.99 102.87) (xy 175.26 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +5324,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.27) (xy 99.06 129.54)
+			(xy 115.57 142.24) (xy 115.57 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5864,7 +5334,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 133.35 104.14)
+			(xy 149.86 113.03) (xy 149.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5874,7 +5344,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 54.61) (xy 96.52 57.15)
+			(xy 113.03 68.58) (xy 113.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5884,7 +5354,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 119.38 96.52)
+			(xy 135.89 107.95) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5894,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 115.57) (xy 77.47 114.3)
+			(xy 93.98 129.54) (xy 93.98 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5904,7 +5374,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 123.19) (xy 99.06 121.92)
+			(xy 115.57 137.16) (xy 115.57 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5914,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 111.76 39.37)
+			(xy 123.19 53.34) (xy 128.27 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5924,7 +5394,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 107.95 88.9)
+			(xy 118.11 102.87) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5934,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 101.6 39.37)
+			(xy 118.11 57.15) (xy 118.11 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5944,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 93.98) (xy 101.6 93.98)
+			(xy 116.84 107.95) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5954,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 35.56) (xy 85.09 35.56)
+			(xy 99.06 49.53) (xy 101.6 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5964,7 +5434,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 118.11 96.52)
+			(xy 135.89 110.49) (xy 134.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5974,17 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 134.62 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5222d75-1585-4d88-9545-bcbd1329a04f")
-	)
-	(wire
-		(pts
-			(xy 35.56 120.65) (xy 43.18 120.65)
+			(xy 52.07 134.62) (xy 59.69 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5994,7 +5454,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 99.06 114.3)
+			(xy 115.57 129.54) (xy 115.57 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6004,7 +5464,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 152.4 88.9)
+			(xy 167.64 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6014,7 +5474,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 93.98) (xy 69.85 93.98)
+			(xy 85.09 107.95) (xy 86.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6024,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 179.07 96.52)
+			(xy 193.04 110.49) (xy 195.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6034,7 +5494,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 121.92) (xy 99.06 120.65)
+			(xy 115.57 135.89) (xy 115.57 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6044,7 +5504,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 96.52 49.53)
+			(xy 113.03 60.96) (xy 113.03 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6054,7 +5514,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 44.45) (xy 72.39 35.56)
+			(xy 88.9 58.42) (xy 88.9 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6064,7 +5524,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 64.77 36.83)
+			(xy 78.74 50.8) (xy 81.28 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6074,7 +5534,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 62.23 45.72)
+			(xy 81.28 59.69) (xy 78.74 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6084,7 +5544,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 46.99) (xy 92.71 35.56)
+			(xy 109.22 60.96) (xy 109.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6094,7 +5554,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 68.58) (xy 54.61 68.58)
+			(xy 186.69 54.61) (xy 168.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c46f9f-2eff-44b5-bab4-1ab19783d9f5")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 71.12 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6104,7 +5574,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 93.98) (xy 76.2 93.98)
+			(xy 93.98 107.95) (xy 92.71 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6114,7 +5584,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 99.06) (xy 46.99 104.14)
+			(xy 63.5 113.03) (xy 63.5 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6124,7 +5594,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 123.19) (xy 77.47 121.92)
+			(xy 93.98 137.16) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6134,7 +5604,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 88.9) (xy 93.98 88.9)
+			(xy 104.14 102.87) (xy 110.49 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6144,17 +5614,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 49.53) (xy 149.86 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b649bb-1a40-4777-b4a9-0aecaf891dda")
-	)
-	(wire
-		(pts
-			(xy 92.71 35.56) (xy 99.06 35.56)
+			(xy 109.22 49.53) (xy 115.57 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6164,7 +5624,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 71.12) (xy 59.69 68.58)
+			(xy 76.2 85.09) (xy 76.2 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6174,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 168.91 96.52)
+			(xy 182.88 110.49) (xy 185.42 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6184,7 +5644,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 133.35) (xy 35.56 129.54)
+			(xy 52.07 147.32) (xy 52.07 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6194,7 +5654,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 46.99) (xy 106.68 46.99)
+			(xy 142.24 60.96) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6204,7 +5664,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 113.03 71.12)
+			(xy 130.81 85.09) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6214,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 97.79) (xy 168.91 96.52)
+			(xy 185.42 111.76) (xy 185.42 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6224,7 +5684,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 35.56) (xy 139.7 33.02)
+			(xy 152.4 49.53) (xy 152.4 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6234,7 +5694,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 151.13 90.17)
+			(xy 167.64 102.87) (xy 167.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6244,7 +5704,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 39.37) (xy 106.68 39.37)
+			(xy 118.11 53.34) (xy 123.19 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6254,7 +5714,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 73.66) (xy 96.52 73.66)
+			(xy 114.3 87.63) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6264,17 +5724,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 127) (xy 93.98 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a41ca8-2a0a-4a1d-93f3-10a87d4ed924")
-	)
-	(wire
-		(pts
-			(xy 54.61 58.42) (xy 54.61 60.96)
+			(xy 71.12 72.39) (xy 71.12 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6284,17 +5734,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 134.62 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d732558d-8254-45e6-b81e-491f3faf92fa")
-	)
-	(wire
-		(pts
-			(xy 99.06 46.99) (xy 96.52 46.99)
+			(xy 115.57 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6304,7 +5744,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 78.74) (xy 114.3 78.74)
+			(xy 113.03 92.71) (xy 130.81 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6314,7 +5754,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 88.9) (xy 46.99 88.9)
+			(xy 59.69 102.87) (xy 63.5 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6324,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 113.03) (xy 93.98 114.3)
+			(xy 110.49 127) (xy 110.49 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6334,7 +5774,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 71.12) (xy 121.92 71.12)
+			(xy 140.97 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6344,7 +5784,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 46.99) (xy 92.71 49.53)
+			(xy 109.22 60.96) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6354,7 +5794,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 78.74) (xy 59.69 76.2)
+			(xy 76.2 92.71) (xy 76.2 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6364,7 +5804,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 38.1) (xy 125.73 46.99)
+			(xy 142.24 52.07) (xy 142.24 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6374,7 +5814,27 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 133.35 99.06)
+			(xy 168.91 46.99) (xy 166.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e140fdaa-f080-43aa-b179-c91dfb1735f2")
+	)
+	(wire
+		(pts
+			(xy 152.4 46.99) (xy 147.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fce81a-0424-4009-9837-634c3bba3a3c")
+	)
+	(wire
+		(pts
+			(xy 151.13 113.03) (xy 149.86 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6384,7 +5844,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 64.77 78.74)
+			(xy 110.49 142.24) (xy 110.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47b4786-116f-4a2d-8abb-3b3d0b1ddd98")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 81.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6394,7 +5864,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 130.81) (xy 43.18 133.35)
+			(xy 59.69 144.78) (xy 59.69 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6404,7 +5874,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 133.35 93.98)
+			(xy 148.59 107.95) (xy 149.86 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6414,7 +5884,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 72.39 114.3)
+			(xy 93.98 128.27) (xy 88.9 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6424,7 +5894,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 93.98 96.52)
+			(xy 110.49 107.95) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6434,7 +5904,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 35.56 120.65)
+			(xy 52.07 138.43) (xy 52.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6444,7 +5914,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 114.3 71.12)
+			(xy 130.81 92.71) (xy 130.81 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6454,17 +5924,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 41.91) (xy 119.38 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec42d93b-6dc6-481c-817c-3bde71e0c792")
-	)
-	(wire
-		(pts
-			(xy 134.62 35.56) (xy 134.62 33.02)
+			(xy 147.32 49.53) (xy 147.32 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6474,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 88.9) (xy 46.99 93.98)
+			(xy 63.5 102.87) (xy 63.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6484,7 +5944,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 46.99) (xy 92.71 46.99)
+			(xy 99.06 60.96) (xy 109.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6494,7 +5954,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 96.52) (xy 68.58 93.98)
+			(xy 85.09 110.49) (xy 85.09 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6504,7 +5964,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 119.38 88.9)
+			(xy 185.42 44.45) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebafd57-33de-4ad8-95a8-15a606dda42c")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6514,7 +5984,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 171.45 96.52)
+			(xy 185.42 110.49) (xy 187.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6524,7 +5994,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 123.19) (xy 102.87 121.92)
+			(xy 120.65 137.16) (xy 120.65 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6534,7 +6004,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 38.1) (xy 74.93 38.1)
+			(xy 87.63 52.07) (xy 91.44 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6544,7 +6014,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 93.98) (xy 43.18 88.9)
+			(xy 59.69 107.95) (xy 59.69 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6554,7 +6024,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 50.8) (xy 54.61 53.34)
+			(xy 71.12 64.77) (xy 71.12 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6564,7 +6034,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 35.56) (xy 106.68 39.37)
+			(xy 123.19 49.53) (xy 123.19 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6574,7 +6044,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 99.06) (xy 50.8 99.06)
+			(xy 68.58 113.03) (xy 67.31 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6584,7 +6054,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 35.56) (xy 109.22 35.56)
+			(xy 123.19 49.53) (xy 125.73 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6594,7 +6064,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 68.58) (xy 66.04 68.58)
+			(xy 76.2 82.55) (xy 82.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6604,7 +6074,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 82.55 66.04)
+			(xy 99.06 77.47) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6614,7 +6084,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 46.99) (xy 74.93 38.1)
+			(xy 91.44 60.96) (xy 91.44 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6624,7 +6094,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 121.92) (xy 77.47 121.92)
+			(xy 99.06 135.89) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6634,7 +6104,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 71.12) (xy 85.09 71.12)
+			(xy 99.06 85.09) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6644,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 104.14) (xy 168.91 102.87)
+			(xy 185.42 118.11) (xy 185.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6654,7 +6124,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 93.98) (xy 52.07 93.98)
+			(xy 67.31 107.95) (xy 68.58 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6664,7 +6134,7 @@
 	)
 	(global_label "V_MEAS_ADC"
 		(shape input)
-		(at 124.46 71.12 0)
+		(at 140.97 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6674,7 +6144,7 @@
 		)
 		(uuid "4733e01b-ec0d-4b96-a349-e89a67e26040")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.6351 71.12 0)
+			(at 151.1451 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +6156,7 @@
 	)
 	(global_label "ESR_ADC"
 		(shape input)
-		(at 179.07 96.52 0)
+		(at 195.58 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6696,7 +6166,7 @@
 		)
 		(uuid "89e18704-197c-4036-85b7-963639822d62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.9168 96.52 0)
+			(at 203.4268 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +6178,7 @@
 	)
 	(global_label "SINE_DAC"
 		(shape input)
-		(at 149.86 33.02 0)
+		(at 191.77 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6718,7 +6188,7 @@
 		)
 		(uuid "90cb0bf2-1319-47d2-9171-850335419578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.1724 33.02 0)
+			(at 200.0824 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6200,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_AnalogIC:TL074H")
-		(at 110.49 96.52 0)
+		(at 127 110.49 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6738,7 +6208,7 @@
 		(dnp no)
 		(uuid "05b45658-e0d4-4f08-8f17-ec1ce7417049")
 		(property "Reference" "U1"
-			(at 107.95 101.6 0)
+			(at 124.46 115.57 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6748,7 +6218,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 107.95 102.87 0)
+			(at 124.46 116.84 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6758,7 +6228,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_ICs:SOIC-14"
-			(at 110.49 82.55 0)
+			(at 127 96.52 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6768,7 +6238,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
-			(at 110.49 85.09 0)
+			(at 127 99.06 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6778,7 +6248,7 @@
 			)
 		)
 		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
-			(at 110.49 86.36 0)
+			(at 127 100.33 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6788,7 +6258,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 110.49 80.01 0)
+			(at 127 93.98 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6798,7 +6268,7 @@
 			)
 		)
 		(property "OC" "296-TL074HIDRCT-ND"
-			(at 110.49 83.82 0)
+			(at 127 97.79 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6808,7 +6278,7 @@
 			)
 		)
 		(property "MPN" "TL074HIDR"
-			(at 110.49 81.28 0)
+			(at 127 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6869,123 +6339,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_Capacitors:N_100nF_50V_0603")
-		(at 149.86 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0745dbec-cd12-45a8-adbc-5fb12eec05ea")
-		(property "Reference" "C10"
-			(at 150.368 51.816 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7112 0.7112)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 150.368 54.864 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7112 0.7112)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 149.86 43.18 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 149.86 41.91 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 149.86 48.26 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 149.86 49.53 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC" "399-6856-1-ND"
-			(at 149.86 45.72 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACAUTO"
-			(at 149.86 46.99 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Details" "50V X7R"
-			(at 149.86 44.45 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a28f473-896b-4457-b05a-7e88eeff97fe")
-		)
-		(pin "2"
-			(uuid "1a7c2367-60f7-4824-b7d8-d6d8a404ea20")
-		)
-		(instances
-			(project "ESR_Meter_Develop_RevA"
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Supply:VDD")
-		(at 72.39 113.03 0)
+		(at 88.9 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6994,7 +6349,7 @@
 		(fields_autoplaced yes)
 		(uuid "09427a6b-60e6-48a0-a683-81c0655c8135")
 		(property "Reference" "#PWR012"
-			(at 72.39 106.68 0)
+			(at 88.9 120.65 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7003,7 +6358,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 72.39 109.474 0)
+			(at 88.9 123.444 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7012,7 +6367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 113.03 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +6376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 113.03 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +6385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 72.39 107.95 0)
+			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7052,7 +6407,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
-		(at 129.54 33.02 90)
+		(at 157.48 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7061,7 +6416,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dd4b854-0b79-4f4e-85b2-fc25a69c3f75")
 		(property "Reference" "R18"
-			(at 129.54 31.242 90)
+			(at 157.48 45.212 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7070,7 +6425,7 @@
 			)
 		)
 		(property "Value" "18k"
-			(at 129.54 34.798 90)
+			(at 157.48 48.768 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7079,7 +6434,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 116.84 33.02 0)
+			(at 144.78 46.99 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7088,7 +6443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 33.02 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7097,7 +6452,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 33.02 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7106,7 +6461,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 119.38 33.02 0)
+			(at 147.32 46.99 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7115,7 +6470,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 120.65 33.02 0)
+			(at 148.59 46.99 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7124,7 +6479,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 33.02 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7149,7 +6504,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:+2.5V")
-		(at 82.55 63.5 0)
+		(at 99.06 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7158,7 +6513,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f96bbec-9ddd-40ac-8d2a-facec721cac3")
 		(property "Reference" "#PWR023"
-			(at 82.55 67.31 0)
+			(at 99.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +6522,7 @@
 			)
 		)
 		(property "Value" "+2.5V"
-			(at 82.55 59.944 0)
+			(at 99.06 73.914 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7176,7 +6531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 63.5 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +6540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 63.5 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +6549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2.5V\""
-			(at 82.55 63.5 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,197 +6570,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_Supply:GND")
-		(at 146.05 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1449eb7b-43c6-4172-afd0-14f44d53a379")
-		(property "Reference" "#PWR022"
-			(at 146.05 55.118 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 59.69 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 53.34 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79b1e16c-4531-45ca-88d4-8cb046f61f32")
-		)
-		(instances
-			(project "ESR_Meter_Develop_RevA"
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3Brain_AnalogIC:TL072H")
-		(at 93.98 121.92 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1515b116-7c98-49fb-abb1-0e915c55f304")
-		(property "Reference" "U3"
-			(at 90.17 125.73 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL072H"
-			(at 91.44 125.73 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3Brain_ICs:SOIC-8"
-			(at 93.98 110.49 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
-			(at 93.98 113.03 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz 2 SOIC-8 Amplifiers RoHS"
-			(at 96.52 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 93.98 111.76 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC" "296-LM358BIDRCT-ND"
-			(at 93.98 109.22 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TL072HIDR"
-			(at 93.98 107.95 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db9a529f-5405-45d3-83e6-c7013c36cbb6")
-		)
-		(pin "4"
-			(uuid "8beb7871-fa34-4b96-851c-7ee3cf1c03f5")
-		)
-		(pin "6"
-			(uuid "5ed80d24-0bba-47b5-98b1-20a35dad6ac7")
-		)
-		(pin "7"
-			(uuid "de916437-d4d9-4735-9cd3-7044408256ac")
-		)
-		(pin "2"
-			(uuid "462f0051-0504-425a-adfa-48934607640e")
-		)
-		(pin "8"
-			(uuid "9e985885-a7c3-4c71-8bc6-b9971e19d72c")
-		)
-		(pin "1"
-			(uuid "4a564122-6963-4823-83a1-79bc0bd0e701")
-		)
-		(pin "5"
-			(uuid "f6e7c943-ee92-4628-a6c8-283c25de2c68")
-		)
-		(instances
-			(project ""
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Capacitors:N_100nF_50V_0603")
-		(at 99.06 125.73 0)
+		(at 115.57 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7414,7 +6580,7 @@
 		(fields_autoplaced yes)
 		(uuid "17c6612e-e42f-44b8-afae-a3c3297861b4")
 		(property "Reference" "C12"
-			(at 99.568 124.206 0)
+			(at 116.078 138.176 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7424,7 +6590,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 99.568 127.254 0)
+			(at 116.078 141.224 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7434,7 +6600,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 99.06 115.57 0)
+			(at 115.57 129.54 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7444,7 +6610,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 99.06 114.3 0)
+			(at 115.57 128.27 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7454,7 +6620,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 99.06 120.65 0)
+			(at 115.57 134.62 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7464,7 +6630,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 99.06 121.92 0)
+			(at 115.57 135.89 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7474,7 +6640,7 @@
 			)
 		)
 		(property "OC" "399-6856-1-ND"
-			(at 99.06 118.11 0)
+			(at 115.57 132.08 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7484,7 +6650,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 99.06 119.38 0)
+			(at 115.57 133.35 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7494,7 +6660,7 @@
 			)
 		)
 		(property "Details" "50V X7R"
-			(at 99.06 116.84 0)
+			(at 115.57 130.81 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7520,7 +6686,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Miscellaneous:Relay_1462038-4")
-		(at 67.31 36.83 270)
+		(at 83.82 50.8 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7528,7 +6694,7 @@
 		(dnp no)
 		(uuid "1880c9ff-49ff-4a57-9eac-02f65b0861ea")
 		(property "Reference" "K1"
-			(at 67.31 33.02 90)
+			(at 83.82 46.99 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7537,7 +6703,7 @@
 			)
 		)
 		(property "Value" "1462038-4"
-			(at 67.31 34.29 90)
+			(at 83.82 48.26 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7546,7 +6712,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Miscellaneous:AXICOM_Relay_IM"
-			(at 87.63 36.83 0)
+			(at 104.14 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7556,7 +6722,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773734-7_IM_Relay_I_Type&DocType=DS&DocLang=English"
-			(at 78.74 36.83 0)
+			(at 95.25 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7566,7 +6732,7 @@
 			)
 		)
 		(property "Description" "Telecom Relay DPDT (2 Form C) Surface Mount"
-			(at 80.01 36.83 0)
+			(at 96.52 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7576,7 +6742,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 83.82 36.83 0)
+			(at 100.33 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7586,7 +6752,7 @@
 			)
 		)
 		(property "OC" "PB1177CT-ND"
-			(at 81.28 36.83 0)
+			(at 97.79 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7596,7 +6762,7 @@
 			)
 		)
 		(property "MPN" "1462038-4"
-			(at 82.55 36.83 0)
+			(at 99.06 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7640,7 +6806,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:VSS")
-		(at 72.39 130.81 180)
+		(at 88.9 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7649,7 +6815,7 @@
 		(fields_autoplaced yes)
 		(uuid "1899e7d1-5739-45dd-a371-7b18ae4e2704")
 		(property "Reference" "#PWR014"
-			(at 72.39 127 0)
+			(at 88.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +6824,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 72.39 134.366 0)
+			(at 88.9 148.336 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7667,7 +6833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 130.81 0)
+			(at 88.9 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +6842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 130.81 0)
+			(at 88.9 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +6851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 72.39 130.81 0)
+			(at 88.9 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +6873,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 43.18 104.14 0)
+		(at 59.69 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7716,7 +6882,7 @@
 		(fields_autoplaced yes)
 		(uuid "25d7929f-1b73-432e-96a4-28393c3531ce")
 		(property "Reference" "#PWR08"
-			(at 43.18 102.108 0)
+			(at 59.69 116.078 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7725,7 +6891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 106.68 0)
+			(at 59.69 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7734,7 +6900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 104.14 0)
+			(at 59.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +6909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 104.14 0)
+			(at 59.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,7 +6918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 100.33 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -7774,7 +6940,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_1210_duplicate_me")
-		(at 80.01 46.99 90)
+		(at 96.52 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7783,7 +6949,7 @@
 		(fields_autoplaced yes)
 		(uuid "2665339d-6aa1-4501-891c-87d257dd1000")
 		(property "Reference" "R17"
-			(at 80.01 45.212 90)
+			(at 96.52 59.182 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7792,7 +6958,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 80.01 48.768 90)
+			(at 96.52 62.738 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7801,7 +6967,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_1210"
-			(at 67.31 46.99 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7810,7 +6976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 46.99 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +6985,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 46.99 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7828,7 +6994,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 69.85 46.99 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7837,7 +7003,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 71.12 46.99 0)
+			(at 87.63 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7846,7 +7012,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 73.66 46.99 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7871,7 +7037,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Diodes:SD12C TVS")
-		(at 35.56 127 90)
+		(at 52.07 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7880,7 +7046,7 @@
 		(fields_autoplaced yes)
 		(uuid "27d19d92-9d07-40fd-884b-e06ed0e03da2")
 		(property "Reference" "D9"
-			(at 33.528 127 0)
+			(at 50.038 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7889,7 +7055,7 @@
 			)
 		)
 		(property "Value" "SD12C-01FTG"
-			(at 37.592 127 0)
+			(at 54.102 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7898,7 +7064,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SOD-323_Bipolar"
-			(at 29.21 127 0)
+			(at 45.72 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7908,7 +7074,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sd_c_datasheet.pdf?assetguid=b682d4fa-3733-4cd6-9f7f-7cf1a490030b"
-			(at 31.75 127 0)
+			(at 48.26 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7918,7 +7084,7 @@
 			)
 		)
 		(property "Description" "23V Clamp 17A (8/20µs) Ipp Tvs Diode Surface Mount SOD-323"
-			(at 30.48 127 0)
+			(at 46.99 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7928,7 +7094,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 25.4 127 0)
+			(at 41.91 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7938,7 +7104,7 @@
 			)
 		)
 		(property "OC" "F6442CT-ND"
-			(at 26.67 127 0)
+			(at 43.18 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7948,7 +7114,7 @@
 			)
 		)
 		(property "MPN" "SD12C-01FTG"
-			(at 27.94 127 0)
+			(at 44.45 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7974,7 +7140,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Miscellaneous:PTC_1k")
-		(at 87.63 35.56 270)
+		(at 104.14 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7983,7 +7149,7 @@
 		(fields_autoplaced yes)
 		(uuid "286a1679-20fe-4073-a6ed-63d93e4a2c23")
 		(property "Reference" "RTH1"
-			(at 87.63 31.75 90)
+			(at 104.14 45.72 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7992,7 +7158,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 87.63 38.1 90)
+			(at 104.14 52.07 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8001,7 +7167,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Miscellaneous:PTCEL13"
-			(at 97.79 35.56 0)
+			(at 114.3 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8011,7 +7177,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/29165/ptcel_series.pdf"
-			(at 95.25 35.56 0)
+			(at 111.76 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8021,7 +7187,7 @@
 			)
 		)
 		(property "Description" "Inrush Current Limiter 1 kOhms ±30% 0.531\" (13.50mm)"
-			(at 96.52 35.56 0)
+			(at 113.03 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8031,7 +7197,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 101.6 35.56 0)
+			(at 118.11 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8041,7 +7207,7 @@
 			)
 		)
 		(property "OC" "56-PTCEL13R102STECT-ND"
-			(at 99.06 35.56 0)
+			(at 115.57 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8051,7 +7217,7 @@
 			)
 		)
 		(property "MPN" "PTCEL13R102STE"
-			(at 100.33 35.56 0)
+			(at 116.84 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8076,75 +7242,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_Supply:VSS")
-		(at 149.86 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bb4ccbd-b0fc-4866-9ab1-c39feb710572")
-		(property "Reference" "#PWR020"
-			(at 149.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 149.86 60.706 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 149.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26a6a74d-ea02-455c-8a23-8f5e0ab9a2dc")
-		)
-		(instances
-			(project "ESR_Meter_Develop_RevA"
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Diodes:PMEG4010ETR,115")
-		(at 154.94 96.52 180)
+		(at 171.45 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8152,7 +7251,7 @@
 		(dnp no)
 		(uuid "2da48748-e596-4daa-89c6-c36aa6b906d5")
 		(property "Reference" "D4"
-			(at 154.94 98.552 0)
+			(at 171.45 112.522 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8161,7 +7260,7 @@
 			)
 		)
 		(property "Value" "PMEG4010"
-			(at 154.94 100.33 0)
+			(at 171.45 114.3 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8170,7 +7269,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SOD-123"
-			(at 154.94 106.68 0)
+			(at 171.45 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8180,7 +7279,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4010ETR.pdf"
-			(at 154.94 101.6 0)
+			(at 171.45 115.57 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8190,7 +7289,7 @@
 			)
 		)
 		(property "Description" "Diode 40 V 1A Surface Mount SOD-123W"
-			(at 154.94 100.33 0)
+			(at 171.45 114.3 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8200,7 +7299,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 154.94 104.14 0)
+			(at 171.45 118.11 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8210,7 +7309,7 @@
 			)
 		)
 		(property "OC" "1727-1341-1-ND"
-			(at 154.94 105.41 0)
+			(at 171.45 119.38 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8220,7 +7319,7 @@
 			)
 		)
 		(property "MPN" "PMEG4010ETR,115"
-			(at 154.94 102.87 0)
+			(at 171.45 116.84 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8246,7 +7345,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:_template_0603_duplicate_me")
-		(at 59.69 73.66 0)
+		(at 76.2 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8255,7 +7354,7 @@
 		(fields_autoplaced yes)
 		(uuid "33f84bb6-f399-45b8-856d-06d02959ce1d")
 		(property "Reference" "C1"
-			(at 60.198 72.136 0)
+			(at 76.708 86.106 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8265,7 +7364,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 60.198 75.184 0)
+			(at 76.708 89.154 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8275,7 +7374,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 59.69 63.5 0)
+			(at 76.2 77.47 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8285,7 +7384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 66.04 0)
+			(at 76.2 80.01 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8295,7 +7394,7 @@
 			)
 		)
 		(property "Description" "Capacitor Symbol Small"
-			(at 59.69 67.31 0)
+			(at 76.2 81.28 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8305,7 +7404,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 59.69 69.85 0)
+			(at 76.2 83.82 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8315,7 +7414,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 59.69 66.04 0)
+			(at 76.2 80.01 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8325,7 +7424,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 59.69 67.31 0)
+			(at 76.2 81.28 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8335,7 +7434,7 @@
 			)
 		)
 		(property "Details" ""
-			(at 59.69 64.77 0)
+			(at 76.2 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8361,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 54.61 78.74 0)
+		(at 71.12 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8370,7 +7469,7 @@
 		(fields_autoplaced yes)
 		(uuid "34ea073a-5ba9-498e-9aef-4a306cadcb71")
 		(property "Reference" "#PWR01"
-			(at 54.61 76.708 0)
+			(at 71.12 90.678 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8379,7 +7478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 81.28 0)
+			(at 71.12 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8388,7 +7487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 78.74 0)
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +7496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 78.74 0)
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +7505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 74.93 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8427,123 +7526,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_AnalogIC:TL071H")
-		(at 116.84 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "353ae83f-a209-478e-957a-206b12b2730d")
-		(property "Reference" "U2"
-			(at 116.84 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL071H"
-			(at 116.84 31.75 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3Brain_ICs:SOIC-8"
-			(at 116.84 17.78 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
-			(at 116.84 21.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mV 1pA 20V/us 105dB 960uA 5.25MHz 1 SOIC-8 Amplifiers RoHS"
-			(at 116.84 20.32 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 116.84 15.24 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC" "296-TL071HIDRCT-ND"
-			(at 116.84 19.05 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TL071HIDR"
-			(at 116.84 16.51 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5d08f45-eb60-416b-9853-cf708eead0f4")
-		)
-		(pin "6"
-			(uuid "5bf2164a-4c09-407e-b941-355ce0d6d567")
-		)
-		(pin "4"
-			(uuid "fe504640-78b4-4fc2-b741-68bb3c2aa701")
-		)
-		(pin "7"
-			(uuid "e45a45a2-9f00-4b98-93e6-c5ecd5c357de")
-		)
-		(pin "3"
-			(uuid "8bf797bb-abd7-451c-9331-7d0549cb58dd")
-		)
-		(instances
-			(project ""
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 92.71 57.15 0)
+		(at 109.22 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8552,7 +7536,7 @@
 		(fields_autoplaced yes)
 		(uuid "396589a5-8177-443a-9492-5c338c1b3059")
 		(property "Reference" "#PWR016"
-			(at 92.71 55.118 0)
+			(at 109.22 69.088 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8561,7 +7545,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 59.69 0)
+			(at 109.22 73.66 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8570,7 +7554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 57.15 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +7563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 57.15 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +7572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 53.34 0)
+			(at 109.22 67.31 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8610,7 +7594,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Diodes:PMEG4010ETR,115")
-		(at 168.91 92.71 270)
+		(at 185.42 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8618,7 +7602,7 @@
 		(dnp no)
 		(uuid "3a468586-b158-44b8-8125-fc91af338f67")
 		(property "Reference" "D5"
-			(at 171.45 88.9 90)
+			(at 187.96 102.87 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8627,7 +7611,7 @@
 			)
 		)
 		(property "Value" "PMEG4010"
-			(at 173.99 90.17 90)
+			(at 190.5 104.14 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8636,7 +7620,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SOD-123"
-			(at 179.07 92.71 0)
+			(at 195.58 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8646,7 +7630,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4010ETR.pdf"
-			(at 173.99 92.71 0)
+			(at 190.5 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8656,7 +7640,7 @@
 			)
 		)
 		(property "Description" "Diode 40 V 1A Surface Mount SOD-123W"
-			(at 172.72 92.71 0)
+			(at 189.23 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8666,7 +7650,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 176.53 92.71 0)
+			(at 193.04 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8676,7 +7660,7 @@
 			)
 		)
 		(property "OC" "1727-1341-1-ND"
-			(at 177.8 92.71 0)
+			(at 194.31 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8686,7 +7670,7 @@
 			)
 		)
 		(property "MPN" "PMEG4010ETR,115"
-			(at 175.26 92.71 0)
+			(at 191.77 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8711,8 +7695,710 @@
 		)
 	)
 	(symbol
+		(lib_id "3Brain_AnalogIC:TL074H")
+		(at 110.49 135.89 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b59ddf4-7652-436b-8e35-c0dc4ec8d026")
+		(property "Reference" "U2"
+			(at 106.68 139.7 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 107.95 139.7 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "3Brain_ICs:SOIC-14"
+			(at 110.49 121.92 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
+			(at 110.49 124.46 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
+			(at 110.49 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 110.49 119.38 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" "296-TL074HIDRCT-ND"
+			(at 110.49 123.19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074HIDR"
+			(at 110.49 120.65 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e9faf51f-dfef-4452-891a-f1495296d117")
+		)
+		(pin "8"
+			(uuid "5c58748c-2575-4fa6-8d1b-e6e65977729e")
+		)
+		(pin "1"
+			(uuid "b18964a8-08ce-42ff-8bd7-a4472a96c9ad")
+		)
+		(pin "2"
+			(uuid "bf189685-ed60-4431-a184-cda1f516094b")
+		)
+		(pin "13"
+			(uuid "f6bd9e86-e141-4d7f-83c2-8de1338d0cb7")
+		)
+		(pin "14"
+			(uuid "056fb9d6-bb5f-4686-9ea7-10a90058e043")
+		)
+		(pin "11"
+			(uuid "33e5154e-ec2a-4b46-958e-c25298f0bba2")
+		)
+		(pin "4"
+			(uuid "efacdcaf-ca2b-4cfb-8585-7d24b0ddca93")
+		)
+		(pin "6"
+			(uuid "42808511-72fc-44a6-a0bc-6070867f7c60")
+		)
+		(pin "7"
+			(uuid "ad8453be-0422-4c3b-9843-ab24c08804f3")
+		)
+		(pin "10"
+			(uuid "f2f9d98f-b2f7-428d-af1a-7ab1b8fc9269")
+		)
+		(pin "3"
+			(uuid "99ec5b41-483a-493b-afdd-ad274b902c38")
+		)
+		(pin "9"
+			(uuid "3b8a6ebe-02e6-4733-96d2-ce4a8cac5ac2")
+		)
+		(pin "12"
+			(uuid "04ed9f91-70b5-484c-b326-04deb2bc249e")
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_AnalogIC:TL074H")
+		(at 90.17 85.09 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b59ddf4-7652-436b-8e35-c0dc4ec8d026")
+		(property "Reference" "U2"
+			(at 87.63 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 87.63 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "3Brain_ICs:SOIC-14"
+			(at 90.17 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
+			(at 90.17 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
+			(at 90.17 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 90.17 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" "296-TL074HIDRCT-ND"
+			(at 90.17 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074HIDR"
+			(at 90.17 100.33 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e9faf51f-dfef-4452-891a-f1495296d117")
+		)
+		(pin "8"
+			(uuid "5c58748c-2575-4fa6-8d1b-e6e65977729e")
+		)
+		(pin "1"
+			(uuid "b18964a8-08ce-42ff-8bd7-a4472a96c9ad")
+		)
+		(pin "2"
+			(uuid "bf189685-ed60-4431-a184-cda1f516094b")
+		)
+		(pin "13"
+			(uuid "f6bd9e86-e141-4d7f-83c2-8de1338d0cb7")
+		)
+		(pin "14"
+			(uuid "056fb9d6-bb5f-4686-9ea7-10a90058e043")
+		)
+		(pin "11"
+			(uuid "33e5154e-ec2a-4b46-958e-c25298f0bba2")
+		)
+		(pin "4"
+			(uuid "efacdcaf-ca2b-4cfb-8585-7d24b0ddca93")
+		)
+		(pin "6"
+			(uuid "42808511-72fc-44a6-a0bc-6070867f7c60")
+		)
+		(pin "7"
+			(uuid "ad8453be-0422-4c3b-9843-ab24c08804f3")
+		)
+		(pin "10"
+			(uuid "f2f9d98f-b2f7-428d-af1a-7ab1b8fc9269")
+		)
+		(pin "3"
+			(uuid "99ec5b41-483a-493b-afdd-ad274b902c38")
+		)
+		(pin "9"
+			(uuid "3b8a6ebe-02e6-4733-96d2-ce4a8cac5ac2")
+		)
+		(pin "12"
+			(uuid "04ed9f91-70b5-484c-b326-04deb2bc249e")
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_AnalogIC:TL074H")
+		(at 121.92 85.09 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b59ddf4-7652-436b-8e35-c0dc4ec8d026")
+		(property "Reference" "U2"
+			(at 119.38 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 119.38 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "3Brain_ICs:SOIC-14"
+			(at 121.92 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
+			(at 121.92 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
+			(at 121.92 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 121.92 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" "296-TL074HIDRCT-ND"
+			(at 121.92 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074HIDR"
+			(at 121.92 100.33 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e9faf51f-dfef-4452-891a-f1495296d117")
+		)
+		(pin "8"
+			(uuid "5c58748c-2575-4fa6-8d1b-e6e65977729e")
+		)
+		(pin "1"
+			(uuid "b18964a8-08ce-42ff-8bd7-a4472a96c9ad")
+		)
+		(pin "2"
+			(uuid "bf189685-ed60-4431-a184-cda1f516094b")
+		)
+		(pin "13"
+			(uuid "f6bd9e86-e141-4d7f-83c2-8de1338d0cb7")
+		)
+		(pin "14"
+			(uuid "056fb9d6-bb5f-4686-9ea7-10a90058e043")
+		)
+		(pin "11"
+			(uuid "33e5154e-ec2a-4b46-958e-c25298f0bba2")
+		)
+		(pin "4"
+			(uuid "efacdcaf-ca2b-4cfb-8585-7d24b0ddca93")
+		)
+		(pin "6"
+			(uuid "42808511-72fc-44a6-a0bc-6070867f7c60")
+		)
+		(pin "7"
+			(uuid "ad8453be-0422-4c3b-9843-ab24c08804f3")
+		)
+		(pin "10"
+			(uuid "f2f9d98f-b2f7-428d-af1a-7ab1b8fc9269")
+		)
+		(pin "3"
+			(uuid "99ec5b41-483a-493b-afdd-ad274b902c38")
+		)
+		(pin "9"
+			(uuid "3b8a6ebe-02e6-4733-96d2-ce4a8cac5ac2")
+		)
+		(pin "12"
+			(uuid "04ed9f91-70b5-484c-b326-04deb2bc249e")
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_AnalogIC:TL074H")
+		(at 133.35 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b59ddf4-7652-436b-8e35-c0dc4ec8d026")
+		(property "Reference" "U2"
+			(at 130.81 54.61 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 130.81 55.88 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "3Brain_ICs:SOIC-14"
+			(at 133.35 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
+			(at 133.35 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
+			(at 133.35 59.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 133.35 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" "296-TL074HIDRCT-ND"
+			(at 133.35 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074HIDR"
+			(at 133.35 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e9faf51f-dfef-4452-891a-f1495296d117")
+		)
+		(pin "8"
+			(uuid "5c58748c-2575-4fa6-8d1b-e6e65977729e")
+		)
+		(pin "1"
+			(uuid "b18964a8-08ce-42ff-8bd7-a4472a96c9ad")
+		)
+		(pin "2"
+			(uuid "bf189685-ed60-4431-a184-cda1f516094b")
+		)
+		(pin "13"
+			(uuid "f6bd9e86-e141-4d7f-83c2-8de1338d0cb7")
+		)
+		(pin "14"
+			(uuid "056fb9d6-bb5f-4686-9ea7-10a90058e043")
+		)
+		(pin "11"
+			(uuid "33e5154e-ec2a-4b46-958e-c25298f0bba2")
+		)
+		(pin "4"
+			(uuid "efacdcaf-ca2b-4cfb-8585-7d24b0ddca93")
+		)
+		(pin "6"
+			(uuid "42808511-72fc-44a6-a0bc-6070867f7c60")
+		)
+		(pin "7"
+			(uuid "ad8453be-0422-4c3b-9843-ab24c08804f3")
+		)
+		(pin "10"
+			(uuid "f2f9d98f-b2f7-428d-af1a-7ab1b8fc9269")
+		)
+		(pin "3"
+			(uuid "99ec5b41-483a-493b-afdd-ad274b902c38")
+		)
+		(pin "9"
+			(uuid "3b8a6ebe-02e6-4733-96d2-ce4a8cac5ac2")
+		)
+		(pin "12"
+			(uuid "04ed9f91-70b5-484c-b326-04deb2bc249e")
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3Brain_AnalogIC:TL074H")
+		(at 177.8 46.99 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b59ddf4-7652-436b-8e35-c0dc4ec8d026")
+		(property "Reference" "U2"
+			(at 173.99 50.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 180.34 40.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "3Brain_ICs:SOIC-14"
+			(at 177.8 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
+			(at 177.8 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
+			(at 177.8 57.15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 177.8 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC" "296-TL074HIDRCT-ND"
+			(at 177.8 59.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL074HIDR"
+			(at 177.8 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e9faf51f-dfef-4452-891a-f1495296d117")
+		)
+		(pin "8"
+			(uuid "5c58748c-2575-4fa6-8d1b-e6e65977729e")
+		)
+		(pin "1"
+			(uuid "b18964a8-08ce-42ff-8bd7-a4472a96c9ad")
+		)
+		(pin "2"
+			(uuid "bf189685-ed60-4431-a184-cda1f516094b")
+		)
+		(pin "13"
+			(uuid "f6bd9e86-e141-4d7f-83c2-8de1338d0cb7")
+		)
+		(pin "14"
+			(uuid "056fb9d6-bb5f-4686-9ea7-10a90058e043")
+		)
+		(pin "11"
+			(uuid "33e5154e-ec2a-4b46-958e-c25298f0bba2")
+		)
+		(pin "4"
+			(uuid "efacdcaf-ca2b-4cfb-8585-7d24b0ddca93")
+		)
+		(pin "6"
+			(uuid "42808511-72fc-44a6-a0bc-6070867f7c60")
+		)
+		(pin "7"
+			(uuid "ad8453be-0422-4c3b-9843-ab24c08804f3")
+		)
+		(pin "10"
+			(uuid "f2f9d98f-b2f7-428d-af1a-7ab1b8fc9269")
+		)
+		(pin "3"
+			(uuid "99ec5b41-483a-493b-afdd-ad274b902c38")
+		)
+		(pin "9"
+			(uuid "3b8a6ebe-02e6-4733-96d2-ce4a8cac5ac2")
+		)
+		(pin "12"
+			(uuid "04ed9f91-70b5-484c-b326-04deb2bc249e")
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 50.8 104.14 0)
+		(at 67.31 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8721,7 +8407,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c07e628-6706-4c7f-8387-bc1f4c3f3087")
 		(property "Reference" "#PWR03"
-			(at 50.8 102.108 0)
+			(at 67.31 116.078 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8730,7 +8416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 106.68 0)
+			(at 67.31 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8739,7 +8425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 104.14 0)
+			(at 67.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +8434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 104.14 0)
+			(at 67.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +8443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 100.33 0)
+			(at 67.31 114.3 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8779,7 +8465,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Diodes:M1")
-		(at 46.99 96.52 90)
+		(at 63.5 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8787,7 +8473,7 @@
 		(dnp no)
 		(uuid "3c0c0c8c-e35f-46c0-b8b0-ac98efd32792")
 		(property "Reference" "D2"
-			(at 45.72 93.98 0)
+			(at 62.23 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8796,7 +8482,7 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 48.26 93.98 0)
+			(at 64.77 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8805,7 +8491,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SMA"
-			(at 36.83 96.52 0)
+			(at 53.34 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8815,7 +8501,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
-			(at 41.91 96.52 0)
+			(at 58.42 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8825,7 +8511,7 @@
 			)
 		)
 		(property "Description" "Diode 50 V 1A Surface Mount DO-214AC (SMA)"
-			(at 43.18 96.52 0)
+			(at 59.69 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8835,7 +8521,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 39.37 96.52 0)
+			(at 55.88 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8845,7 +8531,7 @@
 			)
 		)
 		(property "OC" "4878-M1CT-ND"
-			(at 38.1 96.52 0)
+			(at 54.61 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8855,7 +8541,7 @@
 			)
 		)
 		(property "MPN" "M1"
-			(at 40.64 96.52 0)
+			(at 57.15 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8881,7 +8567,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_AnalogIC:TL074H")
-		(at 59.69 96.52 0)
+		(at 76.2 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8889,7 +8575,7 @@
 		(dnp no)
 		(uuid "408c8d25-2897-4ed6-a67a-5aa3ce8ee555")
 		(property "Reference" "U1"
-			(at 57.15 101.6 0)
+			(at 73.66 115.57 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8899,7 +8585,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 57.15 102.87 0)
+			(at 73.66 116.84 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8909,7 +8595,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_ICs:SOIC-14"
-			(at 59.69 82.55 0)
+			(at 76.2 96.52 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8919,7 +8605,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
-			(at 59.69 85.09 0)
+			(at 76.2 99.06 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8929,7 +8615,7 @@
 			)
 		)
 		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
-			(at 59.69 86.36 0)
+			(at 76.2 100.33 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8939,7 +8625,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 59.69 80.01 0)
+			(at 76.2 93.98 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8949,7 +8635,7 @@
 			)
 		)
 		(property "OC" "296-TL074HIDRCT-ND"
-			(at 59.69 83.82 0)
+			(at 76.2 97.79 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8959,7 +8645,7 @@
 			)
 		)
 		(property "MPN" "TL074HIDR"
-			(at 59.69 81.28 0)
+			(at 76.2 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9021,7 +8707,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Diodes:BAV99")
-		(at 106.68 43.18 180)
+		(at 123.19 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9029,7 +8715,7 @@
 		(dnp no)
 		(uuid "40fd4217-dd85-48f1-ada8-2c613f1faced")
 		(property "Reference" "D6"
-			(at 104.14 40.64 0)
+			(at 120.65 54.61 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9038,7 +8724,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 107.95 40.64 0)
+			(at 124.46 54.61 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9047,7 +8733,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:SOT-23_ACAC"
-			(at 106.68 57.15 0)
+			(at 123.19 71.12 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9057,7 +8743,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/bav99.pdf"
-			(at 106.68 52.07 0)
+			(at 123.19 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9067,7 +8753,7 @@
 			)
 		)
 		(property "Description" "Diode Array 1 Pair Series Connection 75 V 215mA Surface Mount TO-236-3, SC-59, SOT-23-3"
-			(at 106.68 50.8 0)
+			(at 123.19 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9077,7 +8763,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 106.68 54.61 0)
+			(at 123.19 68.58 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9087,7 +8773,7 @@
 			)
 		)
 		(property "OC" "4878-BAV99CT-ND"
-			(at 106.68 55.88 0)
+			(at 123.19 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9097,7 +8783,7 @@
 			)
 		)
 		(property "MPN" "BAV99"
-			(at 106.68 53.34 0)
+			(at 123.19 67.31 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9126,7 +8812,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_1206_duplicate_me")
-		(at 54.61 63.5 0)
+		(at 71.12 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9135,7 +8821,7 @@
 		(fields_autoplaced yes)
 		(uuid "47a2cb3c-c098-4c9b-bbff-9b3903f93ff3")
 		(property "Reference" "R1"
-			(at 56.388 63.5 90)
+			(at 72.898 77.47 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9144,7 +8830,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 52.832 63.5 90)
+			(at 69.342 77.47 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9153,7 +8839,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_1206"
-			(at 54.61 50.8 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9162,7 +8848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 57.15 0)
+			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +8857,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 55.88 0)
+			(at 71.12 69.85 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9180,7 +8866,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 54.61 53.34 0)
+			(at 71.12 67.31 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9189,7 +8875,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 54.61 54.61 0)
+			(at 71.12 68.58 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9198,7 +8884,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 54.61 57.15 0)
+			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9223,7 +8909,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 102.87 123.19 0)
+		(at 120.65 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9232,7 +8918,7 @@
 		(fields_autoplaced yes)
 		(uuid "47ac48f0-760b-4160-b177-43b7c5dcde59")
 		(property "Reference" "#PWR026"
-			(at 102.87 121.158 0)
+			(at 120.65 135.128 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9241,7 +8927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 125.73 0)
+			(at 120.65 139.7 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9250,7 +8936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 123.19 0)
+			(at 120.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +8945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 123.19 0)
+			(at 120.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 119.38 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9289,131 +8975,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_AnalogIC:TL072H")
-		(at 73.66 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b9f1d75-99d8-4827-8209-5c4eda26184a")
-		(property "Reference" "U3"
-			(at 71.12 64.77 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL072H"
-			(at 71.12 66.04 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3Brain_ICs:SOIC-8"
-			(at 73.66 59.69 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
-			(at 73.66 62.23 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz 2 SOIC-8 Amplifiers RoHS"
-			(at 76.2 63.5 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 73.66 60.96 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC" "296-LM358BIDRCT-ND"
-			(at 73.66 58.42 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TL072HIDR"
-			(at 73.66 57.15 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db9a529f-5405-45d3-83e6-c7013c36cbb6")
-		)
-		(pin "4"
-			(uuid "8beb7871-fa34-4b96-851c-7ee3cf1c03f5")
-		)
-		(pin "6"
-			(uuid "5ed80d24-0bba-47b5-98b1-20a35dad6ac7")
-		)
-		(pin "7"
-			(uuid "de916437-d4d9-4735-9cd3-7044408256ac")
-		)
-		(pin "2"
-			(uuid "462f0051-0504-425a-adfa-48934607640e")
-		)
-		(pin "8"
-			(uuid "9e985885-a7c3-4c71-8bc6-b9971e19d72c")
-		)
-		(pin "1"
-			(uuid "4a564122-6963-4823-83a1-79bc0bd0e701")
-		)
-		(pin "5"
-			(uuid "f6e7c943-ee92-4628-a6c8-283c25de2c68")
-		)
-		(instances
-			(project ""
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Supply:VDD")
-		(at 93.98 113.03 0)
+		(at 110.49 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9422,7 +8985,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ced951c-58c6-4169-93f1-52e731197488")
 		(property "Reference" "#PWR024"
-			(at 93.98 106.68 0)
+			(at 110.49 120.65 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9431,7 +8994,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 93.98 109.474 0)
+			(at 110.49 123.444 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9440,7 +9003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 113.03 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,7 +9012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 113.03 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 93.98 107.95 0)
+			(at 110.49 121.92 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9480,7 +9043,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Diodes:M1")
-		(at 43.18 96.52 270)
+		(at 59.69 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9488,7 +9051,7 @@
 		(dnp no)
 		(uuid "4f1afa5c-ee29-487b-8555-b08788132e1b")
 		(property "Reference" "D1"
-			(at 41.91 99.06 0)
+			(at 58.42 113.03 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9497,7 +9060,7 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 44.45 99.06 0)
+			(at 60.96 113.03 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9506,7 +9069,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SMA"
-			(at 53.34 96.52 0)
+			(at 69.85 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9516,7 +9079,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
-			(at 48.26 96.52 0)
+			(at 64.77 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9526,7 +9089,7 @@
 			)
 		)
 		(property "Description" "Diode 50 V 1A Surface Mount DO-214AC (SMA)"
-			(at 46.99 96.52 0)
+			(at 63.5 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9536,7 +9099,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 50.8 96.52 0)
+			(at 67.31 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9546,7 +9109,7 @@
 			)
 		)
 		(property "OC" "4878-M1CT-ND"
-			(at 52.07 96.52 0)
+			(at 68.58 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9556,7 +9119,7 @@
 			)
 		)
 		(property "MPN" "M1"
-			(at 49.53 96.52 0)
+			(at 66.04 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9582,7 +9145,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 59.69 78.74 0)
+		(at 76.2 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9591,7 +9154,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f494b23-1441-4767-a8ea-e8bcd5d99da8")
 		(property "Reference" "#PWR02"
-			(at 59.69 76.708 0)
+			(at 76.2 90.678 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9600,7 +9163,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 81.28 0)
+			(at 76.2 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9609,7 +9172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 78.74 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +9181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 78.74 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 74.93 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9649,7 +9212,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 76.2 104.14 0)
+		(at 92.71 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9658,7 +9221,7 @@
 		(fields_autoplaced yes)
 		(uuid "5123353a-4766-455f-9eb4-08d5f83f6b2a")
 		(property "Reference" "#PWR04"
-			(at 76.2 102.108 0)
+			(at 92.71 116.078 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9667,7 +9230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 106.68 0)
+			(at 92.71 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9676,7 +9239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 104.14 0)
+			(at 92.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 104.14 0)
+			(at 92.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 100.33 0)
+			(at 92.71 114.3 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9715,131 +9278,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_AnalogIC:TL072H")
-		(at 105.41 71.12 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55590002-27e5-48f1-939f-d39f2c71d927")
-		(property "Reference" "U3"
-			(at 102.87 64.77 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL072H"
-			(at 102.87 66.04 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3Brain_ICs:SOIC-8"
-			(at 105.41 59.69 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
-			(at 105.41 62.23 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz 2 SOIC-8 Amplifiers RoHS"
-			(at 107.95 63.5 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 105.41 60.96 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC" "296-LM358BIDRCT-ND"
-			(at 105.41 58.42 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TL072HIDR"
-			(at 105.41 57.15 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db9a529f-5405-45d3-83e6-c7013c36cbb6")
-		)
-		(pin "4"
-			(uuid "8beb7871-fa34-4b96-851c-7ee3cf1c03f5")
-		)
-		(pin "6"
-			(uuid "5ed80d24-0bba-47b5-98b1-20a35dad6ac7")
-		)
-		(pin "7"
-			(uuid "de916437-d4d9-4735-9cd3-7044408256ac")
-		)
-		(pin "2"
-			(uuid "462f0051-0504-425a-adfa-48934607640e")
-		)
-		(pin "8"
-			(uuid "9e985885-a7c3-4c71-8bc6-b9971e19d72c")
-		)
-		(pin "1"
-			(uuid "4a564122-6963-4823-83a1-79bc0bd0e701")
-		)
-		(pin "5"
-			(uuid "f6e7c943-ee92-4628-a6c8-283c25de2c68")
-		)
-		(instances
-			(project ""
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
-		(at 97.79 93.98 90)
+		(at 114.3 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9848,7 +9288,7 @@
 		(fields_autoplaced yes)
 		(uuid "64311bc7-35a3-4406-bde9-c14650550111")
 		(property "Reference" "R8"
-			(at 97.79 92.202 90)
+			(at 114.3 106.172 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9857,7 +9297,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 97.79 95.758 90)
+			(at 114.3 109.728 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9866,7 +9306,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 85.09 93.98 0)
+			(at 101.6 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9875,7 +9315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 93.98 0)
+			(at 107.95 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +9324,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 93.98 0)
+			(at 106.68 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9893,7 +9333,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 87.63 93.98 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9902,7 +9342,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 88.9 93.98 0)
+			(at 105.41 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9911,7 +9351,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 91.44 93.98 0)
+			(at 107.95 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9936,7 +9376,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Diodes:PMEG4010ETR,115")
-		(at 151.13 92.71 90)
+		(at 167.64 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9944,7 +9384,7 @@
 		(dnp no)
 		(uuid "65402b7b-853e-4122-9a9f-5a0d1bf1a45e")
 		(property "Reference" "D3"
-			(at 146.05 91.44 90)
+			(at 162.56 105.41 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9953,7 +9393,7 @@
 			)
 		)
 		(property "Value" "PMEG4010"
-			(at 146.05 92.71 90)
+			(at 162.56 106.68 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9962,7 +9402,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SOD-123"
-			(at 140.97 92.71 0)
+			(at 157.48 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9972,7 +9412,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4010ETR.pdf"
-			(at 146.05 92.71 0)
+			(at 162.56 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9982,7 +9422,7 @@
 			)
 		)
 		(property "Description" "Diode 40 V 1A Surface Mount SOD-123W"
-			(at 147.32 92.71 0)
+			(at 163.83 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9992,7 +9432,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 143.51 92.71 0)
+			(at 160.02 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10002,7 +9442,7 @@
 			)
 		)
 		(property "OC" "1727-1341-1-ND"
-			(at 142.24 92.71 0)
+			(at 158.75 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10012,7 +9452,7 @@
 			)
 		)
 		(property "MPN" "PMEG4010ETR,115"
-			(at 144.78 92.71 0)
+			(at 161.29 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10038,7 +9478,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 134.62 43.18 0)
+		(at 147.32 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10047,7 +9487,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a76d03c-f0f6-4423-9524-727be693c195")
 		(property "Reference" "#PWR018"
-			(at 134.62 41.148 0)
+			(at 147.32 55.118 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -10056,7 +9496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 45.72 0)
+			(at 147.32 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10065,7 +9505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 43.18 0)
+			(at 147.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,7 +9514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 43.18 0)
+			(at 147.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,7 +9523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 39.37 0)
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -10105,7 +9545,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 119.38 71.12 90)
+		(at 135.89 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10114,7 +9554,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a873f02-e19b-4aea-b8fc-6984afd8c8bc")
 		(property "Reference" "R22"
-			(at 119.38 69.342 90)
+			(at 135.89 83.312 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10123,7 +9563,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 72.898 90)
+			(at 135.89 86.868 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10132,7 +9572,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 106.68 71.12 0)
+			(at 123.19 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10141,7 +9581,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 107.95 71.12 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10150,7 +9590,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 111.76 71.12 0)
+			(at 128.27 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10159,7 +9599,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 109.22 71.12 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10168,7 +9608,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 110.49 71.12 0)
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10177,7 +9617,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 113.03 71.12 0)
+			(at 129.54 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10202,7 +9642,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
-		(at 134.62 38.1 0)
+		(at 147.32 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10211,7 +9651,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b2abd7d-e529-4bc4-aab0-2e984ad7668a")
 		(property "Reference" "R19"
-			(at 136.398 38.1 90)
+			(at 149.098 52.07 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10220,7 +9660,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 132.842 38.1 90)
+			(at 145.542 52.07 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10229,7 +9669,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 134.62 25.4 0)
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10238,7 +9678,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 31.75 0)
+			(at 147.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +9687,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 30.48 0)
+			(at 147.32 44.45 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10256,7 +9696,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 134.62 27.94 0)
+			(at 147.32 41.91 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10265,7 +9705,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 134.62 29.21 0)
+			(at 147.32 43.18 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10274,7 +9714,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 134.62 31.75 0)
+			(at 147.32 45.72 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10299,7 +9739,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:R_Small")
-		(at 80.01 35.56 90)
+		(at 96.52 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10308,7 +9748,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d05656d-630f-4110-986e-15740cb82d8b")
 		(property "Reference" "R16"
-			(at 80.01 33.782 90)
+			(at 96.52 47.752 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10317,7 +9757,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 80.01 37.338 90)
+			(at 96.52 51.308 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10326,7 +9766,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_Axial__L17.0mm_D6.0mm_P25.40mm_H"
-			(at 91.44 35.56 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +9775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 35.56 0)
+			(at 90.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +9784,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 35.56 0)
+			(at 91.44 49.53 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -10369,7 +9809,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_1206_duplicate_me")
-		(at 54.61 55.88 0)
+		(at 71.12 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10378,7 +9818,7 @@
 		(fields_autoplaced yes)
 		(uuid "807ced66-06ab-4af1-a423-c651c8f9337a")
 		(property "Reference" "R2"
-			(at 56.388 55.88 90)
+			(at 72.898 69.85 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10387,7 +9827,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 52.832 55.88 90)
+			(at 69.342 69.85 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10396,7 +9836,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_1206"
-			(at 54.61 43.18 0)
+			(at 71.12 57.15 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10405,7 +9845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 49.53 0)
+			(at 71.12 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10414,7 +9854,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 48.26 0)
+			(at 71.12 62.23 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10423,7 +9863,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 54.61 45.72 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10432,7 +9872,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 54.61 46.99 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10441,7 +9881,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 54.61 49.53 0)
+			(at 71.12 63.5 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10466,7 +9906,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:_template_0603_duplicate_me")
-		(at 139.7 38.1 0)
+		(at 152.4 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10475,7 +9915,7 @@
 		(fields_autoplaced yes)
 		(uuid "88a0a53e-9d8b-4e1a-92a2-dc3754d27056")
 		(property "Reference" "C7"
-			(at 140.208 36.576 0)
+			(at 152.908 50.546 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10485,7 +9925,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 140.208 39.624 0)
+			(at 152.908 53.594 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10495,7 +9935,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 139.7 27.94 0)
+			(at 152.4 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10505,7 +9945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 30.48 0)
+			(at 152.4 44.45 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10515,7 +9955,7 @@
 			)
 		)
 		(property "Description" "Capacitor Symbol Small"
-			(at 139.7 31.75 0)
+			(at 152.4 45.72 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10525,7 +9965,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 139.7 34.29 0)
+			(at 152.4 48.26 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10535,7 +9975,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 139.7 30.48 0)
+			(at 152.4 44.45 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10545,7 +9985,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 139.7 31.75 0)
+			(at 152.4 45.72 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10555,7 +9995,7 @@
 			)
 		)
 		(property "Details" ""
-			(at 139.7 29.21 0)
+			(at 152.4 43.18 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10581,7 +10021,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
-		(at 154.94 88.9 90)
+		(at 171.45 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10590,7 +10030,7 @@
 		(fields_autoplaced yes)
 		(uuid "896a7043-1076-4367-8566-5b5d66a5a544")
 		(property "Reference" "R11"
-			(at 154.94 87.122 90)
+			(at 171.45 101.092 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10599,7 +10039,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 154.94 90.678 90)
+			(at 171.45 104.648 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10608,7 +10048,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 142.24 88.9 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10617,7 +10057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 88.9 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10066,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 88.9 0)
+			(at 163.83 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10635,7 +10075,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 144.78 88.9 0)
+			(at 161.29 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10644,7 +10084,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 146.05 88.9 0)
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10653,7 +10093,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 148.59 88.9 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10678,7 +10118,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:_template_0603_duplicate_me")
-		(at 123.19 93.98 90)
+		(at 139.7 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10687,7 +10127,7 @@
 		(fields_autoplaced yes)
 		(uuid "8988e5bd-cf8c-45c2-a9bf-ac412c50ba79")
 		(property "Reference" "C4"
-			(at 121.666 93.472 0)
+			(at 138.176 107.442 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10697,7 +10137,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 124.714 93.472 0)
+			(at 141.224 107.442 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10707,7 +10147,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 113.03 93.98 0)
+			(at 129.54 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10717,7 +10157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 93.98 0)
+			(at 132.08 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10727,7 +10167,7 @@
 			)
 		)
 		(property "Description" "Capacitor Symbol Small"
-			(at 116.84 93.98 0)
+			(at 133.35 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10737,7 +10177,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 119.38 93.98 0)
+			(at 135.89 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10747,7 +10187,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 115.57 93.98 0)
+			(at 132.08 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10757,7 +10197,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 116.84 93.98 0)
+			(at 133.35 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10767,7 +10207,7 @@
 			)
 		)
 		(property "Details" ""
-			(at 114.3 93.98 0)
+			(at 130.81 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10793,7 +10233,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:+2.5V")
-		(at 168.91 88.9 0)
+		(at 185.42 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10802,7 +10242,7 @@
 		(fields_autoplaced yes)
 		(uuid "899919a8-f148-4c6f-b352-313416015fb8")
 		(property "Reference" "#PWR011"
-			(at 168.91 92.71 0)
+			(at 185.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10811,7 +10251,7 @@
 			)
 		)
 		(property "Value" "+2.5V"
-			(at 168.91 85.344 0)
+			(at 185.42 99.314 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10820,7 +10260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 88.9 0)
+			(at 185.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,7 +10269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 88.9 0)
+			(at 185.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10838,7 +10278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2.5V\""
-			(at 168.91 88.9 0)
+			(at 185.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +10300,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:U_1uF_50V_0603")
-		(at 144.78 33.02 90)
+		(at 163.83 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10869,7 +10309,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a5c0d18-266e-4034-ac55-74428e136331")
 		(property "Reference" "C8"
-			(at 143.256 32.512 0)
+			(at 162.306 46.482 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10879,7 +10319,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 146.304 32.512 0)
+			(at 165.354 46.482 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10889,7 +10329,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 134.62 33.02 0)
+			(at 153.67 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10899,7 +10339,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/UMK107AB7105KA-T_SS.pdf"
-			(at 133.35 33.02 0)
+			(at 152.4 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10909,7 +10349,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 139.7 33.02 0)
+			(at 158.75 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10919,7 +10359,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 140.97 33.02 0)
+			(at 160.02 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10929,7 +10369,7 @@
 			)
 		)
 		(property "OC" "587-3247-1-ND"
-			(at 137.16 33.02 0)
+			(at 156.21 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10939,7 +10379,7 @@
 			)
 		)
 		(property "MPN" "UMK107AB7105KA-T"
-			(at 138.43 33.02 0)
+			(at 157.48 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10949,7 +10389,7 @@
 			)
 		)
 		(property "Details" "50V X7R"
-			(at 135.89 33.02 0)
+			(at 154.94 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10975,7 +10415,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:R_220R_0603")
-		(at 101.6 35.56 90)
+		(at 118.11 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10984,7 +10424,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b828f10-24b4-44e1-aa02-f3f3ebfd2b8c")
 		(property "Reference" "R15"
-			(at 101.6 33.782 90)
+			(at 118.11 47.752 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10993,7 +10433,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 101.6 37.338 90)
+			(at 118.11 51.308 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11002,7 +10442,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 88.9 35.56 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11011,7 +10451,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 90.17 35.56 0)
+			(at 106.68 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11020,7 +10460,7 @@
 			)
 		)
 		(property "Description" "220 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 93.98 35.56 0)
+			(at 110.49 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11029,7 +10469,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 91.44 35.56 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11038,7 +10478,7 @@
 			)
 		)
 		(property "OC" "311-220HRCT-ND"
-			(at 92.71 35.56 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11047,7 +10487,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07220RL"
-			(at 95.25 35.56 0)
+			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11072,7 +10512,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 87.63 66.04 90)
+		(at 104.14 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11081,7 +10521,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e1006eb-ed9f-4bda-afe5-392fa98c34d8")
 		(property "Reference" "R21"
-			(at 87.63 64.262 90)
+			(at 104.14 78.232 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11090,7 +10530,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 87.63 67.818 90)
+			(at 104.14 81.788 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11099,7 +10539,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 74.93 66.04 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11108,7 +10548,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 76.2 66.04 0)
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11117,7 +10557,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 80.01 66.04 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11126,7 +10566,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 77.47 66.04 0)
+			(at 93.98 80.01 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11135,7 +10575,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 78.74 66.04 0)
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11144,7 +10584,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 81.28 66.04 0)
+			(at 97.79 80.01 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11169,7 +10609,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:N_22nF_2kV_1812")
-		(at 43.18 76.2 0)
+		(at 59.69 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11178,7 +10618,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e56af63-59f4-4308-9b99-548a1dd8887e")
 		(property "Reference" "C6"
-			(at 43.688 74.676 0)
+			(at 60.198 88.646 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11188,7 +10628,7 @@
 			)
 		)
 		(property "Value" "22nF 2kV"
-			(at 43.688 77.724 0)
+			(at 60.198 91.694 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11198,7 +10638,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_1812"
-			(at 43.18 64.77 0)
+			(at 59.69 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11208,7 +10648,7 @@
 			)
 		)
 		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/CHV-Series-051925.pdf"
-			(at 43.18 68.58 0)
+			(at 59.69 82.55 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11218,7 +10658,7 @@
 			)
 		)
 		(property "Description" "0.022 µF ±10% 2000V (2kV) Ceramic Capacitor X7R 1812 (4532 Metric)"
-			(at 43.18 69.85 0)
+			(at 59.69 83.82 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11228,7 +10668,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 43.18 63.5 0)
+			(at 59.69 77.47 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11238,7 +10678,7 @@
 			)
 		)
 		(property "OC" "4713-CHV1812N2K0223KXTCT-ND"
-			(at 43.18 67.31 0)
+			(at 59.69 81.28 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11248,7 +10688,7 @@
 			)
 		)
 		(property "MPN" "CHV1812N2K0223KXT"
-			(at 43.18 66.04 0)
+			(at 59.69 80.01 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11274,7 +10714,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:N_100nF_50V_0603")
-		(at 77.47 125.73 0)
+		(at 93.98 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11283,7 +10723,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e6043d9-25b8-44aa-a1c9-03a0ec9899ce")
 		(property "Reference" "C3"
-			(at 77.978 124.206 0)
+			(at 94.488 138.176 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11293,7 +10733,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.978 127.254 0)
+			(at 94.488 141.224 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11303,7 +10743,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 77.47 115.57 0)
+			(at 93.98 129.54 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11313,7 +10753,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 77.47 114.3 0)
+			(at 93.98 128.27 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11323,7 +10763,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 77.47 120.65 0)
+			(at 93.98 134.62 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11333,7 +10773,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 77.47 121.92 0)
+			(at 93.98 135.89 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11343,7 +10783,7 @@
 			)
 		)
 		(property "OC" "399-6856-1-ND"
-			(at 77.47 118.11 0)
+			(at 93.98 132.08 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11353,7 +10793,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 77.47 119.38 0)
+			(at 93.98 133.35 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11363,7 +10803,7 @@
 			)
 		)
 		(property "Details" "50V X7R"
-			(at 77.47 116.84 0)
+			(at 93.98 130.81 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11389,7 +10829,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_1210_duplicate_me")
-		(at 43.18 83.82 0)
+		(at 59.69 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11398,7 +10838,7 @@
 		(fields_autoplaced yes)
 		(uuid "9015f7a3-74d1-4788-98b0-b2c17a34c87b")
 		(property "Reference" "R13"
-			(at 44.958 83.82 90)
+			(at 61.468 97.79 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11407,7 +10847,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 41.402 83.82 90)
+			(at 57.912 97.79 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11416,7 +10856,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_1210"
-			(at 43.18 71.12 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11425,7 +10865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 77.47 0)
+			(at 59.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +10874,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 76.2 0)
+			(at 59.69 90.17 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11443,7 +10883,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 43.18 73.66 0)
+			(at 59.69 87.63 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11452,7 +10892,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 43.18 74.93 0)
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11461,7 +10901,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 43.18 77.47 0)
+			(at 59.69 91.44 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11486,7 +10926,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Diodes:M1")
-		(at 96.52 52.07 90)
+		(at 113.03 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11494,7 +10934,7 @@
 		(dnp no)
 		(uuid "9081cc7c-97de-4b70-a221-8ffe9c56d719")
 		(property "Reference" "D8"
-			(at 95.25 49.53 0)
+			(at 111.76 63.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11503,7 +10943,7 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 97.79 49.53 0)
+			(at 114.3 63.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11512,7 +10952,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SMA"
-			(at 86.36 52.07 0)
+			(at 102.87 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11522,7 +10962,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
-			(at 91.44 52.07 0)
+			(at 107.95 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11532,7 +10972,7 @@
 			)
 		)
 		(property "Description" "Diode 50 V 1A Surface Mount DO-214AC (SMA)"
-			(at 92.71 52.07 0)
+			(at 109.22 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11542,7 +10982,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 88.9 52.07 0)
+			(at 105.41 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11552,7 +10992,7 @@
 			)
 		)
 		(property "OC" "4878-M1CT-ND"
-			(at 87.63 52.07 0)
+			(at 104.14 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11562,7 +11002,7 @@
 			)
 		)
 		(property "MPN" "M1"
-			(at 90.17 52.07 0)
+			(at 106.68 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11588,7 +11028,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_AnalogIC:TL074H")
-		(at 142.24 96.52 0)
+		(at 158.75 110.49 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11596,7 +11036,7 @@
 		(dnp no)
 		(uuid "928f0173-90a0-4213-b7de-1e86e9907b59")
 		(property "Reference" "U1"
-			(at 139.7 101.6 0)
+			(at 156.21 115.57 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11606,7 +11046,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 139.7 102.87 0)
+			(at 156.21 116.84 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11616,7 +11056,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_ICs:SOIC-14"
-			(at 142.24 82.55 0)
+			(at 158.75 96.52 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11626,7 +11066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
-			(at 142.24 85.09 0)
+			(at 158.75 99.06 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11636,7 +11076,7 @@
 			)
 		)
 		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
-			(at 142.24 86.36 0)
+			(at 158.75 100.33 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11646,7 +11086,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 142.24 80.01 0)
+			(at 158.75 93.98 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11656,7 +11096,7 @@
 			)
 		)
 		(property "OC" "296-TL074HIDRCT-ND"
-			(at 142.24 83.82 0)
+			(at 158.75 97.79 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11666,7 +11106,7 @@
 			)
 		)
 		(property "MPN" "TL074HIDR"
-			(at 142.24 81.28 0)
+			(at 158.75 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11728,7 +11168,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 133.35 104.14 0)
+		(at 149.86 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11737,7 +11177,7 @@
 		(fields_autoplaced yes)
 		(uuid "933c8749-e3b9-43c6-8f8f-d6fa8a3dcf0e")
 		(property "Reference" "#PWR06"
-			(at 133.35 102.108 0)
+			(at 149.86 116.078 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -11746,7 +11186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 106.68 0)
+			(at 149.86 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11755,7 +11195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 104.14 0)
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,7 +11204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 104.14 0)
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11773,7 +11213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 100.33 0)
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -11795,7 +11235,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 85.09 88.9 90)
+		(at 101.6 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11804,7 +11244,7 @@
 		(fields_autoplaced yes)
 		(uuid "95d7dead-e83b-4277-91a4-1f020a6a63e4")
 		(property "Reference" "R6"
-			(at 85.09 87.122 90)
+			(at 101.6 101.092 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11813,7 +11253,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 85.09 90.678 90)
+			(at 101.6 104.648 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11822,7 +11262,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 72.39 88.9 0)
+			(at 88.9 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11831,7 +11271,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 73.66 88.9 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11840,7 +11280,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 77.47 88.9 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11849,7 +11289,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 74.93 88.9 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11858,7 +11298,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 76.2 88.9 0)
+			(at 92.71 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11867,7 +11307,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 78.74 88.9 0)
+			(at 95.25 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11892,7 +11332,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 110.49 88.9 90)
+		(at 127 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11901,7 +11341,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a3befe8-e6e7-421b-a3eb-a0210cab8811")
 		(property "Reference" "R9"
-			(at 110.49 87.122 90)
+			(at 127 101.092 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11910,7 +11350,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 110.49 90.678 90)
+			(at 127 104.648 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11919,7 +11359,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 97.79 88.9 0)
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11928,7 +11368,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 99.06 88.9 0)
+			(at 115.57 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11937,7 +11377,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 102.87 88.9 0)
+			(at 119.38 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11946,7 +11386,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 100.33 88.9 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11955,7 +11395,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 101.6 88.9 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11964,7 +11404,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 104.14 88.9 0)
+			(at 120.65 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11989,7 +11429,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_1206_duplicate_me")
-		(at 54.61 48.26 0)
+		(at 71.12 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11998,7 +11438,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c3822f6-d137-46d7-9f71-052a3b801713")
 		(property "Reference" "R3"
-			(at 56.388 48.26 90)
+			(at 72.898 62.23 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12007,7 +11447,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 52.832 48.26 90)
+			(at 69.342 62.23 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12016,7 +11456,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_1206"
-			(at 54.61 35.56 0)
+			(at 71.12 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12025,7 +11465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 41.91 0)
+			(at 71.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +11474,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 40.64 0)
+			(at 71.12 54.61 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12043,7 +11483,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 54.61 38.1 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12052,7 +11492,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 54.61 39.37 0)
+			(at 71.12 53.34 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12061,7 +11501,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 54.61 41.91 0)
+			(at 71.12 55.88 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12086,7 +11526,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 87.63 71.12 90)
+		(at 104.14 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12095,7 +11535,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dd9db9f-18cd-4eb6-b1c0-268f27b5508f")
 		(property "Reference" "R20"
-			(at 87.63 69.342 90)
+			(at 104.14 83.312 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12104,7 +11544,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 87.63 72.898 90)
+			(at 104.14 86.868 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12113,7 +11553,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 74.93 71.12 0)
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12122,7 +11562,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 76.2 71.12 0)
+			(at 92.71 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12131,7 +11571,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 80.01 71.12 0)
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12140,7 +11580,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 77.47 71.12 0)
+			(at 93.98 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12149,7 +11589,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 78.74 71.12 0)
+			(at 95.25 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12158,7 +11598,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 81.28 71.12 0)
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12183,7 +11623,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 96.52 57.15 0)
+		(at 113.03 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12192,7 +11632,7 @@
 		(fields_autoplaced yes)
 		(uuid "a939b733-4243-408a-9d09-089af4b579fb")
 		(property "Reference" "#PWR017"
-			(at 96.52 55.118 0)
+			(at 113.03 69.088 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -12201,7 +11641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 59.69 0)
+			(at 113.03 73.66 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12210,7 +11650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 57.15 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,7 +11659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 57.15 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,7 +11668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 53.34 0)
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -12249,75 +11689,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_Supply:VDD")
-		(at 149.86 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9674936-30b1-4b99-a026-8938a137ad28")
-		(property "Reference" "#PWR021"
-			(at 149.86 35.56 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 149.86 38.354 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 149.86 36.83 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15031293-f365-423a-adfd-faa5f3d333f5")
-		)
-		(instances
-			(project "ESR_Meter_Develop_RevA"
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Diodes:M1")
-		(at 92.71 52.07 270)
+		(at 109.22 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12325,7 +11698,7 @@
 		(dnp no)
 		(uuid "b1b10615-0473-4b23-b494-a7403d5e5413")
 		(property "Reference" "D7"
-			(at 91.44 54.61 0)
+			(at 107.95 68.58 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12334,7 +11707,7 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 93.98 54.61 0)
+			(at 110.49 68.58 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12343,7 +11716,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Diodes:D_SMA"
-			(at 102.87 52.07 0)
+			(at 119.38 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12353,7 +11726,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
-			(at 97.79 52.07 0)
+			(at 114.3 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12363,7 +11736,7 @@
 			)
 		)
 		(property "Description" "Diode 50 V 1A Surface Mount DO-214AC (SMA)"
-			(at 96.52 52.07 0)
+			(at 113.03 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12373,7 +11746,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 100.33 52.07 0)
+			(at 116.84 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12383,7 +11756,7 @@
 			)
 		)
 		(property "OC" "4878-M1CT-ND"
-			(at 101.6 52.07 0)
+			(at 118.11 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12393,7 +11766,7 @@
 			)
 		)
 		(property "MPN" "M1"
-			(at 99.06 52.07 0)
+			(at 115.57 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12419,7 +11792,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:VSS")
-		(at 93.98 130.81 180)
+		(at 110.49 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12428,7 +11801,7 @@
 		(fields_autoplaced yes)
 		(uuid "b531b919-db25-400b-8a42-a9efc41be0e5")
 		(property "Reference" "#PWR025"
-			(at 93.98 127 0)
+			(at 110.49 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,7 +11810,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 93.98 134.366 0)
+			(at 110.49 148.336 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12446,7 +11819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 130.81 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,7 +11828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 130.81 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +11837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 93.98 130.81 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12486,7 +11859,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
-		(at 129.54 93.98 90)
+		(at 146.05 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12495,7 +11868,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbd84227-ce23-4506-806d-f1ddc4b8fe9c")
 		(property "Reference" "R10"
-			(at 129.54 92.202 90)
+			(at 146.05 106.172 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12504,7 +11877,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 129.54 95.758 90)
+			(at 146.05 109.728 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12513,7 +11886,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 116.84 93.98 0)
+			(at 133.35 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12522,7 +11895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 93.98 0)
+			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12531,7 +11904,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 93.98 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12540,7 +11913,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 119.38 93.98 0)
+			(at 135.89 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12549,7 +11922,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 120.65 93.98 0)
+			(at 137.16 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12558,7 +11931,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 123.19 93.98 0)
+			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12582,75 +11955,8 @@
 		)
 	)
 	(symbol
-		(lib_id "3Brain_Supply:VDD")
-		(at 119.38 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e93ec2-0bd3-41ca-a61b-78750ca0b023")
-		(property "Reference" "#PWR013"
-			(at 119.38 21.59 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 119.38 24.384 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 119.38 22.86 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e07bc19-b067-4703-82d3-663f82d37180")
-		)
-		(instances
-			(project ""
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "3Brain_Resistors:K_1k_0603")
-		(at 101.6 46.99 90)
+		(at 118.11 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12659,7 +11965,7 @@
 		(fields_autoplaced yes)
 		(uuid "c252f6d4-684a-4070-9c15-4829ceea90e0")
 		(property "Reference" "R14"
-			(at 101.6 45.212 90)
+			(at 118.11 59.182 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12668,7 +11974,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 101.6 48.768 90)
+			(at 118.11 62.738 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12677,7 +11983,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 88.9 46.99 0)
+			(at 105.41 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12686,7 +11992,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 90.17 46.99 0)
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12695,7 +12001,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 93.98 46.99 0)
+			(at 110.49 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12704,7 +12010,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 91.44 46.99 0)
+			(at 107.95 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12713,7 +12019,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT1K00CT-ND"
-			(at 92.71 46.99 0)
+			(at 109.22 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12722,7 +12028,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT1K00"
-			(at 95.25 46.99 0)
+			(at 111.76 60.96 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12747,7 +12053,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:N_100nF_50V_0603")
-		(at 168.91 100.33 0)
+		(at 185.42 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12756,7 +12062,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3b8044a-ec27-4d63-adb3-bb8ad6e5870b")
 		(property "Reference" "C5"
-			(at 169.418 98.806 0)
+			(at 185.928 112.776 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12766,7 +12072,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 169.418 101.854 0)
+			(at 185.928 115.824 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12776,7 +12082,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 168.91 90.17 0)
+			(at 185.42 104.14 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12786,7 +12092,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 168.91 88.9 0)
+			(at 185.42 102.87 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12796,7 +12102,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 168.91 95.25 0)
+			(at 185.42 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12806,7 +12112,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 168.91 96.52 0)
+			(at 185.42 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12816,7 +12122,7 @@
 			)
 		)
 		(property "OC" "399-6856-1-ND"
-			(at 168.91 92.71 0)
+			(at 185.42 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12826,7 +12132,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 168.91 93.98 0)
+			(at 185.42 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12836,7 +12142,7 @@
 			)
 		)
 		(property "Details" "50V X7R"
-			(at 168.91 91.44 0)
+			(at 185.42 105.41 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12862,7 +12168,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 168.91 104.14 0)
+		(at 185.42 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12871,7 +12177,7 @@
 		(fields_autoplaced yes)
 		(uuid "c488bf2b-a85e-452d-8b9f-9c718550aa8a")
 		(property "Reference" "#PWR010"
-			(at 168.91 102.108 0)
+			(at 185.42 116.078 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -12880,7 +12186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 106.68 0)
+			(at 185.42 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12889,7 +12195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 104.14 0)
+			(at 185.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12898,7 +12204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 104.14 0)
+			(at 185.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12907,7 +12213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 100.33 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -12929,7 +12235,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Miscellaneous:Relay_1462038-4")
-		(at 43.18 127 0)
+		(at 59.69 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12938,7 +12244,7 @@
 		(fields_autoplaced yes)
 		(uuid "c66401e1-72dd-4627-91fb-b3e4033b5e9b")
 		(property "Reference" "K1"
-			(at 39.37 127 90)
+			(at 55.88 140.97 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12947,7 +12253,7 @@
 			)
 		)
 		(property "Value" "1462038-4"
-			(at 46.99 127 90)
+			(at 63.5 140.97 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12956,7 +12262,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Miscellaneous:AXICOM_Relay_IM"
-			(at 43.18 106.68 0)
+			(at 59.69 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12966,7 +12272,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773734-7_IM_Relay_I_Type&DocType=DS&DocLang=English"
-			(at 43.18 115.57 0)
+			(at 59.69 129.54 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12976,7 +12282,7 @@
 			)
 		)
 		(property "Description" "Telecom Relay DPDT (2 Form C) Surface Mount"
-			(at 43.18 114.3 0)
+			(at 59.69 128.27 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12986,7 +12292,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 43.18 110.49 0)
+			(at 59.69 124.46 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12996,7 +12302,7 @@
 			)
 		)
 		(property "OC" "PB1177CT-ND"
-			(at 43.18 113.03 0)
+			(at 59.69 127 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13006,7 +12312,7 @@
 			)
 		)
 		(property "MPN" "1462038-4"
-			(at 43.18 111.76 0)
+			(at 59.69 125.73 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13050,7 +12356,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 139.7 43.18 0)
+		(at 152.4 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13059,7 +12365,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7471e3b-94bc-4c0a-a0aa-baba118663e5")
 		(property "Reference" "#PWR019"
-			(at 139.7 41.148 0)
+			(at 152.4 55.118 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -13068,7 +12374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 45.72 0)
+			(at 152.4 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13077,7 +12383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 43.18 0)
+			(at 152.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13086,7 +12392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 43.18 0)
+			(at 152.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,7 +12401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 39.37 0)
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -13117,7 +12423,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 59.69 88.9 90)
+		(at 76.2 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13126,7 +12432,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7b150e3-d9f0-41d4-a6be-99965b57a4ae")
 		(property "Reference" "R5"
-			(at 59.69 87.122 90)
+			(at 76.2 101.092 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13135,7 +12441,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 59.69 90.678 90)
+			(at 76.2 104.648 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13144,7 +12450,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 46.99 88.9 0)
+			(at 63.5 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13153,7 +12459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 48.26 88.9 0)
+			(at 64.77 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13162,7 +12468,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 52.07 88.9 0)
+			(at 68.58 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13171,7 +12477,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 49.53 88.9 0)
+			(at 66.04 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13180,7 +12486,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 50.8 88.9 0)
+			(at 67.31 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13189,7 +12495,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 53.34 88.9 0)
+			(at 69.85 102.87 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13214,7 +12520,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Miscellaneous:Relay_1462038-4")
-		(at 67.31 45.72 270)
+		(at 83.82 59.69 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13222,7 +12528,7 @@
 		(dnp no)
 		(uuid "d1fd228b-75cd-4682-88c8-d11e88c8d20c")
 		(property "Reference" "K1"
-			(at 67.31 41.91 90)
+			(at 83.82 55.88 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13231,7 +12537,7 @@
 			)
 		)
 		(property "Value" "1462038-4"
-			(at 67.31 43.18 90)
+			(at 83.82 57.15 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13240,7 +12546,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Miscellaneous:AXICOM_Relay_IM"
-			(at 87.63 45.72 0)
+			(at 104.14 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13250,7 +12556,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773734-7_IM_Relay_I_Type&DocType=DS&DocLang=English"
-			(at 78.74 45.72 0)
+			(at 95.25 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13260,7 +12566,7 @@
 			)
 		)
 		(property "Description" "Telecom Relay DPDT (2 Form C) Surface Mount"
-			(at 80.01 45.72 0)
+			(at 96.52 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13270,7 +12576,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 83.82 45.72 0)
+			(at 100.33 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13280,7 +12586,7 @@
 			)
 		)
 		(property "OC" "PB1177CT-ND"
-			(at 81.28 45.72 0)
+			(at 97.79 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13290,7 +12596,7 @@
 			)
 		)
 		(property "MPN" "1462038-4"
-			(at 82.55 45.72 0)
+			(at 99.06 59.69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13334,7 +12640,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 101.6 104.14 0)
+		(at 118.11 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13343,7 +12649,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5091f7e-2731-4138-8146-0f363ca0bf14")
 		(property "Reference" "#PWR05"
-			(at 101.6 102.108 0)
+			(at 118.11 116.078 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -13352,7 +12658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 106.68 0)
+			(at 118.11 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13361,7 +12667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 104.14 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13370,7 +12676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 104.14 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13379,7 +12685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 100.33 0)
+			(at 118.11 114.3 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -13401,7 +12707,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:_template_0603_duplicate_me")
-		(at 72.39 93.98 90)
+		(at 88.9 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13410,7 +12716,7 @@
 		(fields_autoplaced yes)
 		(uuid "da223422-deb1-437b-9ed3-d508f83fedde")
 		(property "Reference" "R7"
-			(at 72.39 92.202 90)
+			(at 88.9 106.172 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13419,7 +12725,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 72.39 95.758 90)
+			(at 88.9 109.728 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13428,7 +12734,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 59.69 93.98 0)
+			(at 76.2 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13437,7 +12743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 93.98 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13446,7 +12752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 93.98 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13455,7 +12761,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 62.23 93.98 0)
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13464,7 +12770,7 @@
 			)
 		)
 		(property "OC" ""
-			(at 63.5 93.98 0)
+			(at 80.01 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13473,7 +12779,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 66.04 93.98 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13498,7 +12804,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_AnalogIC:TL074H")
-		(at 72.39 121.92 0)
+		(at 88.9 135.89 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13506,7 +12812,7 @@
 		(dnp no)
 		(uuid "dc577c1f-de1d-49c1-950b-d56658db36e1")
 		(property "Reference" "U1"
-			(at 68.58 125.73 90)
+			(at 85.09 139.7 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13516,7 +12822,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 69.85 125.73 90)
+			(at 86.36 139.7 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13526,7 +12832,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_ICs:SOIC-14"
-			(at 72.39 107.95 0)
+			(at 88.9 121.92 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13536,7 +12842,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
-			(at 72.39 110.49 0)
+			(at 88.9 124.46 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13546,7 +12852,7 @@
 			)
 		)
 		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
-			(at 72.39 111.76 0)
+			(at 88.9 125.73 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13556,7 +12862,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 72.39 105.41 0)
+			(at 88.9 119.38 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13566,7 +12872,7 @@
 			)
 		)
 		(property "OC" "296-TL074HIDRCT-ND"
-			(at 72.39 109.22 0)
+			(at 88.9 123.19 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13576,7 +12882,7 @@
 			)
 		)
 		(property "MPN" "TL074HIDR"
-			(at 72.39 106.68 0)
+			(at 88.9 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13638,122 +12944,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:N_100nF_50V_0603")
-		(at 149.86 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc956fa8-040d-46f6-960d-a21a540d8b89")
-		(property "Reference" "C9"
-			(at 150.368 44.196 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7112 0.7112)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 150.368 47.244 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.7112 0.7112)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 149.86 35.56 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 149.86 34.29 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 149.86 40.64 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 149.86 41.91 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC" "399-6856-1-ND"
-			(at 149.86 38.1 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104K5RACAUTO"
-			(at 149.86 39.37 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Details" "50V X7R"
-			(at 149.86 36.83 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18811cdb-eab8-45c4-8fd0-efccb2205a1c")
-		)
-		(pin "2"
-			(uuid "781631e6-a105-499c-a916-85467a9c97bb")
-		)
-		(instances
-			(project "ESR_Meter_Develop_RevA"
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3Brain_Capacitors:N_100nF_50V_0603")
-		(at 99.06 118.11 0)
+		(at 115.57 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13762,7 +12953,7 @@
 		(fields_autoplaced yes)
 		(uuid "df106fbe-6323-4e8d-a346-17387b19fb3e")
 		(property "Reference" "C11"
-			(at 99.568 116.586 0)
+			(at 116.078 130.556 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13772,7 +12963,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 99.568 119.634 0)
+			(at 116.078 133.604 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13782,7 +12973,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 99.06 107.95 0)
+			(at 115.57 121.92 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13792,7 +12983,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 99.06 106.68 0)
+			(at 115.57 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13802,7 +12993,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 99.06 113.03 0)
+			(at 115.57 127 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13812,7 +13003,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 99.06 114.3 0)
+			(at 115.57 128.27 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13822,7 +13013,7 @@
 			)
 		)
 		(property "OC" "399-6856-1-ND"
-			(at 99.06 110.49 0)
+			(at 115.57 124.46 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13832,7 +13023,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 99.06 111.76 0)
+			(at 115.57 125.73 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13842,7 +13033,7 @@
 			)
 		)
 		(property "Details" "50V X7R"
-			(at 99.06 109.22 0)
+			(at 115.57 123.19 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13868,7 +13059,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 173.99 96.52 90)
+		(at 190.5 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13877,7 +13068,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1a5a26f-a50d-4524-92ae-7fb787d3d01e")
 		(property "Reference" "R23"
-			(at 173.99 94.742 90)
+			(at 190.5 108.712 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13886,7 +13077,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 173.99 98.298 90)
+			(at 190.5 112.268 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13895,7 +13086,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 161.29 96.52 0)
+			(at 177.8 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13904,7 +13095,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 162.56 96.52 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13913,7 +13104,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 166.37 96.52 0)
+			(at 182.88 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13922,7 +13113,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 163.83 96.52 0)
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13931,7 +13122,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 165.1 96.52 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13940,7 +13131,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 167.64 96.52 0)
+			(at 184.15 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -13965,7 +13156,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_AnalogIC:TL074H")
-		(at 85.09 96.52 0)
+		(at 101.6 110.49 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13973,7 +13164,7 @@
 		(dnp no)
 		(uuid "e6c49246-ed34-4110-9dff-78590be18790")
 		(property "Reference" "U1"
-			(at 82.55 101.6 0)
+			(at 99.06 115.57 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13983,7 +13174,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 82.55 102.87 0)
+			(at 99.06 116.84 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13993,7 +13184,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_ICs:SOIC-14"
-			(at 85.09 82.55 0)
+			(at 101.6 96.52 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14003,7 +13194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf"
-			(at 85.09 85.09 0)
+			(at 101.6 99.06 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14013,7 +13204,7 @@
 			)
 		)
 		(property "Description" "1mV 1pA 20V/us 105dB 940uA 5.25MHz Four channels SOIC-14 Amplifiers RoHS"
-			(at 85.09 86.36 0)
+			(at 101.6 100.33 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14023,7 +13214,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 85.09 80.01 0)
+			(at 101.6 93.98 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14033,7 +13224,7 @@
 			)
 		)
 		(property "OC" "296-TL074HIDRCT-ND"
-			(at 85.09 83.82 0)
+			(at 101.6 97.79 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14043,7 +13234,7 @@
 			)
 		)
 		(property "MPN" "TL074HIDR"
-			(at 85.09 81.28 0)
+			(at 101.6 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14105,7 +13296,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_10k_0603")
-		(at 54.61 73.66 0)
+		(at 71.12 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14114,7 +13305,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9d545da-a392-4e1a-b180-7882a79224f6")
 		(property "Reference" "R4"
-			(at 56.388 73.66 90)
+			(at 72.898 87.63 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14123,7 +13314,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 52.832 73.66 90)
+			(at 69.342 87.63 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14132,7 +13323,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 54.61 60.96 0)
+			(at 71.12 74.93 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14141,7 +13332,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 54.61 62.23 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14150,7 +13341,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 54.61 66.04 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14159,7 +13350,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 54.61 63.5 0)
+			(at 71.12 77.47 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14168,7 +13359,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT10K0CT-ND"
-			(at 54.61 64.77 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14177,7 +13368,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 54.61 67.31 0)
+			(at 71.12 81.28 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14202,7 +13393,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Capacitors:N_100nF_50V_0603")
-		(at 77.47 118.11 0)
+		(at 93.98 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14211,7 +13402,7 @@
 		(fields_autoplaced yes)
 		(uuid "f201d8d0-7229-4223-8cd5-a56a7284ea5e")
 		(property "Reference" "C2"
-			(at 77.978 116.586 0)
+			(at 94.488 130.556 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14221,7 +13412,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.978 119.634 0)
+			(at 94.488 133.604 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14231,7 +13422,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Capacitors:C_0603"
-			(at 77.47 107.95 0)
+			(at 93.98 121.92 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14241,7 +13432,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 77.47 106.68 0)
+			(at 93.98 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14251,7 +13442,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 77.47 113.03 0)
+			(at 93.98 127 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14261,7 +13452,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 77.47 114.3 0)
+			(at 93.98 128.27 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14271,7 +13462,7 @@
 			)
 		)
 		(property "OC" "399-6856-1-ND"
-			(at 77.47 110.49 0)
+			(at 93.98 124.46 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14281,7 +13472,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 77.47 111.76 0)
+			(at 93.98 125.73 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14291,7 +13482,7 @@
 			)
 		)
 		(property "Details" "50V X7R"
-			(at 77.47 109.22 0)
+			(at 93.98 123.19 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14317,7 +13508,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 81.28 123.19 0)
+		(at 99.06 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14326,7 +13517,7 @@
 		(fields_autoplaced yes)
 		(uuid "f82cb5c5-0bb5-4bcb-8426-888631704b33")
 		(property "Reference" "#PWR09"
-			(at 81.28 121.158 0)
+			(at 99.06 135.128 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -14335,7 +13526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 125.73 0)
+			(at 99.06 139.7 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14344,7 +13535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 123.19 0)
+			(at 99.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,7 +13544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 123.19 0)
+			(at 99.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,7 +13553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 119.38 0)
+			(at 99.06 133.35 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -14384,7 +13575,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Resistors:K_1k_0603")
-		(at 163.83 96.52 90)
+		(at 180.34 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14393,7 +13584,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9fea2cc-4c11-4d5f-9db9-e3325867c804")
 		(property "Reference" "R12"
-			(at 163.83 94.742 90)
+			(at 180.34 108.712 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14402,7 +13593,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 163.83 98.298 90)
+			(at 180.34 112.268 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14411,7 +13602,7 @@
 			)
 		)
 		(property "Footprint" "3Brain_Resistors:R_0603"
-			(at 151.13 96.52 0)
+			(at 167.64 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14420,7 +13611,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 152.4 96.52 0)
+			(at 168.91 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14429,7 +13620,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 156.21 96.52 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14438,7 +13629,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 153.67 96.52 0)
+			(at 170.18 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14447,7 +13638,7 @@
 			)
 		)
 		(property "OC" "RMCF0603FT1K00CT-ND"
-			(at 154.94 96.52 0)
+			(at 171.45 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14456,7 +13647,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT1K00"
-			(at 157.48 96.52 0)
+			(at 173.99 110.49 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14481,7 +13672,7 @@
 	)
 	(symbol
 		(lib_id "3Brain_Supply:GND")
-		(at 46.99 104.14 0)
+		(at 63.5 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14490,7 +13681,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb048c0b-28ed-4c2f-b37b-08b0ef667bb9")
 		(property "Reference" "#PWR07"
-			(at 46.99 102.108 0)
+			(at 63.5 116.078 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -14499,7 +13690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 106.68 0)
+			(at 63.5 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14508,7 +13699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 104.14 0)
+			(at 63.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14517,7 +13708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 104.14 0)
+			(at 63.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14526,7 +13717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 100.33 0)
+			(at 63.5 114.3 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -14541,73 +13732,6 @@
 			(project "ESR_Meter_Develop_RevA"
 				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3Brain_Supply:VSS")
-		(at 119.38 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc01a414-2316-42d2-b510-aea69458b4df")
-		(property "Reference" "#PWR015"
-			(at 119.38 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 119.38 51.816 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0649451-4a97-4125-b976-29174ba6df14")
-		)
-		(instances
-			(project ""
-				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f/e91c6350-4ee2-43dd-bf63-2f5635e1b5b8"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
