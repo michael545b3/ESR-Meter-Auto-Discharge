@@ -66,6 +66,48 @@
 		(uuid "fe677f99-d900-44ea-962c-183f50d084f4")
 	)
 	(sheet
+		(at 38.1 74.93)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "b4ea4802-9647-40c0-bf91-aae1e6d485fa")
+		(property "Sheetname" "Backend"
+			(at 38.1 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backend.kicad_sch"
+			(at 38.1 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 63.5)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
