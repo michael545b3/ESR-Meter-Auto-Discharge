@@ -149,6 +149,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 38.1 86.36)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "f5813b14-e164-4536-9594-f88623a6ca02")
+		(property "Sheetname" "Power Supply"
+			(at 38.1 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 38.1 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESR_Meter_Develop_RevA"
+				(path "/9db92e0e-011b-43dc-aa19-665c004a2f0f"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -621,6 +621,10 @@
     [
       "b4ea4802-9647-40c0-bf91-aae1e6d485fa",
       "Backend"
+    ],
+    [
+      "f5813b14-e164-4536-9594-f88623a6ca02",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
